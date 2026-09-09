@@ -13,7 +13,8 @@ Run:
     python app.py --share     # temporary public URL
 
 Env (.env): MISTRAL_API_KEY (or OPENAI_API_KEY + OPENAI_BASE_URL=https://api.mistral.ai/v1), OPENAI_REAL_API_KEY,
-JUDGE (assistant name used as the single judge, default OpenAI), MAX_CALLS, WORKERS, DEMO_USER/DEMO_PASSWORD.
+JUDGE (assistant name used as the single judge, default OpenAI), MAX_CALLS, WORKERS,
+DEMO_ACCOUNTS ("name:password,...") and RUNS_PER_USER for the access quota.
 LLM_PROVIDER=mock runs without any key.
 """
 
@@ -167,8 +168,8 @@ ASSISTANTS = _build_assistants()
 JUDGE = ASSISTANTS.get(os.getenv("JUDGE", "OpenAI")) or next(iter(ASSISTANTS.values()))
 MAX_CALLS = int(os.getenv("MAX_CALLS", "600"))
 HTTP_TIMEOUT = float(os.getenv("HTTP_TIMEOUT", "90"))  # un appel qui pend bloque un worker
-# Garde-fous d'instance publique : le mot de passe de démo est écrit dans le README, donc tout
-# visiteur peut dépenser la clé. On borne la taille d'un run, le coût de la session, la longueur
+# Garde-fous d'instance publique : l'outil est joignable par une URL et adossé à une clé payante.
+# On borne donc la taille d'un run, le coût de la session, la longueur
 # des champs libres (la fiche de faits est renvoyée dans CHAQUE appel au juge : c'est le vrai
 # amplificateur de facture) et le nombre de sondages simultanés.
 MAX_RUN_CALLS = int(os.getenv("MAX_RUN_CALLS", "200"))       # appels d'un seul run

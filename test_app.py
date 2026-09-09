@@ -9,7 +9,7 @@ d'importer `app` : aucun appel réseau, aucune écriture dans runs/.
 Trois statuts :
     PASS  l'assertion tient
     FAIL  l'assertion ne tient pas → bug (code de sortie 1)
-    INFO  comportement observé, ni bon ni mauvais en soi, documenté dans rapport-tests.md
+    INFO  comportement observé, ni bon ni mauvais en soi, signalé pour mémoire
 
 Ce qui n'est PAS testé ici : la couche Gradio (widgets, callbacks) et les appels réels aux
 fournisseurs — voir eval_judge.py pour le juge réel.
@@ -649,8 +649,8 @@ def t_monitor_sonde_en_echec():
         out = _monitor()
         partiel = isinstance(out[2], list) and len(out[2]) == 3
         verif("1 sonde sur 4 en échec → les 3 autres réponses sont conservées", partiel,
-              f"BUG CONNU — monitor() renvoie « {str(out[0])[:90]} » et jette les 3 réponses "
-              "déjà obtenues (monitor(), la boucle sur les futures : le try englobe toute la boucle).")
+              f"monitor() a renvoyé « {str(out[0])[:90]} » : les réponses déjà obtenues doivent être "
+              "conservées et le nombre de sondes perdues annoncé à l'écran.")
     except Exception as e:
         verif("1 sonde sur 4 en échec → les 3 autres réponses sont conservées", False, repr(e))
     finally:
@@ -674,7 +674,7 @@ def t_monitor_sans_dossier_runs():
               repr(out)[:200])
     except FileNotFoundError as e:
         verif("HISTORY_PATH hors de runs/ → le run aboutit quand même", False,
-              f"BUG CONNU — l'export écrit dans Path('runs') en dur (monitor(), export = Path('runs')) sans mkdir : {e}. "
+              f"l'export doit suivre HISTORY_PATH et créer son dossier : {e}. "
               "Les appels modèle sont consommés, l'historique est écrit, puis l'UI plante.")
     except Exception as e:
         verif("HISTORY_PATH hors de runs/ → le run aboutit quand même", False, repr(e))
@@ -891,7 +891,7 @@ def main() -> int:
         print("\nÉchecs :")
         for e in ECHECS:
             print(f"  - {e}")
-        print("\nLes échecs marqués « BUG CONNU » sont documentés dans ../rapport-tests.md.")
+        print("\nChaque échec ci-dessus indique le comportement attendu et ce qui a été observé.")
     shutil.rmtree(_TMP, ignore_errors=True)
     return 1 if BILAN["fail"] else 0
 
