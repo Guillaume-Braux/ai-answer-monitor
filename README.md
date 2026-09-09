@@ -17,7 +17,9 @@ Named after its only deliverable. Measuring is the easy half; the tool is judged
 hands a brand manager on Monday morning, and that plan is written by rules, not by a model.
 Built for the Datawords "AI Use Case: AI Answer Monitor" test.
 
-- Live tool: **URL and credentials are in the submission email** — one named login per reviewer, 5 runs each. A durable URL follows.
+- Live tool: **https://ai-answer-monitor.onrender.com** — one named login per reviewer, 5 runs each;
+  credentials are in the submission email. Free hosting: after 15 minutes of inactivity the first request
+  takes about a minute to wake the service.
   The repo is public, the demo budget is not: publishing the password here would hand a paid API key to anyone.
 - Built in one afternoon (9 Sept 2026, 14:00 → 17:00) for the Datawords "AI Use Case" test. One Python file, Gradio, two assistants probed (Mistral, OpenAI), one fixed judge.
 
