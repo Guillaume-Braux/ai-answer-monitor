@@ -75,7 +75,16 @@ python test_app.py              # 234-assertion test battery — offline, no API
 python eval_judge.py            # judge smoke test on 6 hand-labelled answers
 ```
 
-Deploy: a Hugging Face Space (Gradio SDK) with the same `.env` keys as Space secrets. Prices shown in the session band are read from `.env`, not hard-coded, so they can be re-checked and updated: Mistral `ministral-8b-latest` $0.15/$0.15 per M tokens (mistral.ai/pricing/api, read 9 Sept 2026); OpenAI `gpt-5.6-luna` $0.10/$0.60 per M tokens (developers.openai.com/api/docs/pricing, read 9 Sept 2026). Note that `gpt-5.6-luna` is a reasoning model: roughly half of its billed output tokens are invisible reasoning tokens.
+Deployed on Render (free plan), with the `.env` keys set as service environment variables.
+
+Prices shown in the session band are read from `.env`, never hard-coded, so they can be re-checked before each
+campaign: Mistral `ministral-8b-latest` $0.15/$0.15 per M tokens (mistral.ai/pricing/api, read 9 Sept 2026);
+OpenAI `gpt-5.6-luna` $0.20/$1.20 per M tokens, standard short-context tier
+(developers.openai.com/api/docs/pricing, read 9 Sept 2026). Two things move the real bill: the same model is
+billed $0.40/$1.80 above the short-context threshold — a probe never gets close, a much larger fact sheet would —
+and it is a reasoning model, so roughly half of its billed output tokens are reasoning tokens you never see.
+The figure is the higher of the two readings I obtained today; a cost shown to a client should err upwards, and
+the provider's usage console settles it in one glance.
 
 ## Running this in public without handing over your API bill
 
