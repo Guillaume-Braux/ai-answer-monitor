@@ -17,7 +17,7 @@ Named after its only deliverable. Measuring is the easy half; the tool is judged
 hands a brand manager on Monday morning, and that plan is written by rules, not by a model.
 Built for the Datawords "AI Use Case: AI Answer Monitor" test.
 
-- Live tool: **<HF_SPACE_URL>** — one named login per reviewer, sent in the submission email; 5 runs each.
+- Live tool: **URL and credentials are in the submission email** — one named login per reviewer, 5 runs each. A durable URL follows.
   The repo is public, the demo budget is not: publishing the password here would hand a paid API key to anyone.
 - Built in one afternoon (9 Sept 2026, 14:00 → 17:00) for the Datawords "AI Use Case" test. One Python file, Gradio, two assistants probed (Mistral, OpenAI), one fixed judge.
 
