@@ -1,0 +1,13 @@
+# Deployment descriptor for Render. Every secret (API keys, DEMO_ACCOUNTS) is set in the
+# dashboard, never here. The free plan has no persistent disk: point HISTORY_PATH at a
+# mounted disk if the month-over-month history has to survive a restart.
+services:
+  - type: web
+    name: ai-answer-monitor
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14

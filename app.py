@@ -1318,6 +1318,11 @@ if __name__ == "__main__":
                     "Démo Datawords du 9 septembre 2026 — accès nominatif, "
                     f"{RUNS_PAR_JURE} sondages par identifiant. Vos identifiants sont dans l\'email de rendu.")
     # Gradio 6 : le thème et le CSS se passent à launch(), plus au constructeur Blocks.
+    # Un hébergeur (Render, Fly, Cloud Run, Space) impose le port par PORT et exige une écoute
+    # sur toutes les interfaces. En local on garde 127.0.0.1 pour ne rien exposer par mégarde.
+    port = os.getenv("PORT")
+    heberge = bool(port or os.getenv("SPACE_ID"))
     demo.launch(share=share, auth=auth, auth_message=auth_message if auth else None,
                 theme=THEME, css=CSS,
-                server_name="0.0.0.0" if os.getenv("SPACE_ID") else None)
+                server_name="0.0.0.0" if heberge else None,
+                server_port=int(port) if port else None)
