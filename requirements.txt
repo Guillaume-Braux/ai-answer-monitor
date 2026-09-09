@@ -1,0 +1,4 @@
+gradio>=6,<7
+anthropic>=0.40
+openai>=1.50
+python-dotenv>=1.0
