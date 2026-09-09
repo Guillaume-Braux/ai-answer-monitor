@@ -1,0 +1,1467 @@
+{
+ "ts": "2026-09-09T13:42:50+00:00",
+ "brand": "L'Occitane",
+ "category": "crème pour les mains",
+ "markets": [
+  "FR",
+  "DE",
+  "JP"
+ ],
+ "assistants": [
+  "Mistral",
+  "OpenAI"
+ ],
+ "reps": 1,
+ "judge": "OpenAI/gpt-5.6-luna",
+ "probe_bank": "2026-09-09.1",
+ "scores": {
+  "DE|Mistral": {
+   "market": "DE",
+   "assistant": "Mistral",
+   "n_answers": 4,
+   "presence_all": 0.75,
+   "presence_reco": 0.0,
+   "rank_reco": null,
+   "rank_spread": 0,
+   "stability_reco": null,
+   "sentiment": 1,
+   "n_claims": 18,
+   "contradicted": [
+    "Die Handcremes werden unter anderem mit Lavendel-, Orangen- und Vanilledüften angeboten.",
+    "Die Preise liegen meist zwischen 20 und 40 Euro für 200 ml.",
+    "L’Occitane bietet exklusive Parfüm-Cremes wie „Eau de Lavande“ an.",
+    "L’Occitane offers a hand-cream line called “Lait de Miel”.",
+    "L’Occitane offers a hand-cream line called “Lait de Coco”.",
+    "L’Occitane offers a hand-cream line called “Lait de Tige de Coco”.",
+    "L’Occitane has a “Soin Réparateur” hand-care line.",
+    "L’Occitane has “Hydra-Vital” and “Douceur” hand-cream lines.",
+    "L’Occitane sells hand creams in 50 ml and 200 ml formats.",
+    "L'Occitane bietet eine Handcreme namens „Hydraphase Intense“ für trockene Haut an.",
+    "L'Occitane-Handcremes kosten etwa 15–25 € für 50–100 ml."
+   ],
+   "unverifiable": [
+    "L’Occitane ist eher ein Luxus-Genussprodukt als medizinische Pflege.",
+    "L'Occitane verkauft seine Produkte in Parfümerien, bei Douglas und online."
+   ],
+   "sources": [
+    "Apotheken-Umsätze (z. B. Apotheken.de)",
+    "Kundenbewertungen (Amazon, Douglas)",
+    "dermatologische Empfehlungen (z. B. Hautarztverbände)",
+    "Inhaltsstoffanalysen (z. B. Codecheck)",
+    "Offizielle Website von L’Occitane (Inhaltsstofflisten, Nachhaltigkeitsberichte)"
+   ],
+   "top_competitors": [
+    "Nivea",
+    "La Roche-Posay"
+   ]
+  },
+  "DE|OpenAI": {
+   "market": "DE",
+   "assistant": "OpenAI",
+   "n_answers": 4,
+   "presence_all": 1.0,
+   "presence_reco": 1.0,
+   "rank_reco": 4,
+   "rank_spread": 0,
+   "stability_reco": null,
+   "sentiment": 0.75,
+   "n_claims": 21,
+   "contradicted": [
+    "L’Occitane führt eine Osmanthus-Handcreme-Linie.",
+    "L’Occitane führt eine Herbae-L’Eau-Handcreme-Linie.",
+    "L’Occitane führt eine Aqua-Réotier-Handcreme-Linie."
+   ],
+   "unverifiable": [
+    "Die Shea-Handcremes haben eine angenehme Textur und einen angenehmen Duft.",
+    "Die Shea-Handcremes sind im Verhältnis zur Pflegewirkung recht teuer.",
+    "L’Occitane bietet reichhaltige und leichtere Handcreme-Varianten an.",
+    "Die Karité-Handcreme hinterlässt einen schützenden Film und ist für trockene bis sehr trockene Hände geeignet.",
+    "L’Occitane-Handcremes sind deutlich teurer als gute Produkte aus Drogerie oder Apotheke.",
+    "L’Occitane verwendet Aluminiumtuben für die Handcremes.",
+    "The classic L’Occitane hand cream contains 20% shea butter.",
+    "The classic L’Occitane hand cream has a rich, generally fast-absorbing texture.",
+    "The classic L’Occitane hand cream is fragranced and contains fragrance allergens.",
+    "L’Occitane is relatively expensive per 100 ml compared with drugstore and pharmacy products.",
+    "L’Occitane is suitable for normal to dry hands and is recommended as a pleasant daytime option."
+   ],
+   "sources": [
+    "Herstellerinformationen von Eucerin, La Roche-Posay, Neutrogena, L’Occitane und Weleda",
+    "Verbraucher- und Apothekenproduktinformationen",
+    "L’Occitane Produktseiten und Inhaltsstoffangaben",
+    "Verbraucherzentrale-Informationen zu Duftstoffen in Kosmetik",
+    "Stiftung Warentest"
+   ],
+   "top_competitors": [
+    "Neutrogena"
+   ]
+  },
+  "FR|Mistral": {
+   "market": "FR",
+   "assistant": "Mistral",
+   "n_answers": 4,
+   "presence_all": 0.75,
+   "presence_reco": 0.0,
+   "rank_reco": null,
+   "rank_spread": 0,
+   "stability_reco": null,
+   "sentiment": 1,
+   "n_claims": 18,
+   "contradicted": [
+    "L'Occitane propose une crème pour les mains Baobab.",
+    "L'Occitane propose une crème pour les mains Figue de Barbarie.",
+    "L'Occitane propose une Crème Hydratante Douceur ou une Crème Douceur.",
+    "Les petits pots de crème pour les mains de L'Occitane existent en format de 25 ml.",
+    "L'Occitane propose une gamme de crèmes pour les mains « Hydratation & Soin », notamment une crème « Huile d’Argile ».",
+    "L'Occitane propose une crème pour les mains « Lait d’Âne ».",
+    "L'Occitane propose une crème pour les mains « Huile d’Olive ».",
+    "L'Occitane propose une gamme « Protection & Réparation », notamment un « Baume Réparateur ».",
+    "L'Occitane propose une crème pour les mains « Huile de Karité ».",
+    "Les crèmes pour les mains L'Occitane sont proposées en formats de 100 ml.",
+    "L’Occitane propose une « Crème Réparatrice aux Huiles Végétales » pour les mains.",
+    "Les crèmes pour les mains L’Occitane coûtent environ 20–40 € pour 100–200 ml."
+   ],
+   "unverifiable": [
+    "Les crèmes L’Occitane utilisent notamment de l’huile d’argan, de l’huile de macadamia et de l’huile de pépins de raisin.",
+    "La « Crème aux Huiles Végétales » contient 98 % d’ingrédients d’origine naturelle."
+   ],
+   "sources": [
+    "60 Millions",
+    "Que Choisir",
+    "Trustpilot",
+    "Notez.com",
+    "Doctolib"
+   ],
+   "top_competitors": [
+    "Nivea",
+    "La Roche-Posay"
+   ]
+  },
+  "FR|OpenAI": {
+   "market": "FR",
+   "assistant": "OpenAI",
+   "n_answers": 4,
+   "presence_all": 0.75,
+   "presence_reco": 0.0,
+   "rank_reco": null,
+   "rank_spread": 0,
+   "stability_reco": null,
+   "sentiment": 1,
+   "n_claims": 17,
+   "contradicted": [
+    "L’Occitane propose une crème mains Karité & Lavande.",
+    "L’Occitane propose une crème mains Osmanthus.",
+    "L’Occitane propose une gamme de crèmes mains Aqua Réotier."
+   ],
+   "unverifiable": [
+    "La gamme Karité est présentée comme la gamme la plus connue et comme particulièrement nourrissante.",
+    "Les crèmes pour les mains de L’Occitane ont un prix assez élevé par rapport aux marques de pharmacie ou de grande surface.",
+    "L’Occitane utilise des tubes métalliques pour ses crèmes pour les mains.",
+    "La crème pour les mains L’Occitane Karité contient 20 % de beurre de karité.",
+    "La crème L’Occitane contient du parfum et des allergènes parfumants comme le limonene, le linalool ou le geraniol.",
+    "La crème L’Occitane est chère ou coûte plus cher que plusieurs alternatives.",
+    "L’Occitane n’est pas clairement supérieure à CeraVe, Neutrogena ou La Roche-Posay pour la réparation cutanée."
+   ],
+   "sources": [
+    "sites officiels de Neutrogena, CeraVe, Eucerin, La Roche-Posay et Nuxe",
+    "recommandations dermatologiques générales sur les crèmes hydratantes et les ingrédients réparateurs",
+    "fiches produits et listes d’ingrédients officielles de L’Occitane en Provence",
+    "recommandations générales de dermatologie sur les crèmes pour les mains, les parfums et les peaux sensibles",
+    "site officiel L’Occitane en Provence France"
+   ],
+   "top_competitors": [
+    "Neutrogena"
+   ]
+  },
+  "JP|Mistral": {
+   "market": "JP",
+   "assistant": "Mistral",
+   "n_answers": 4,
+   "presence_all": 0.75,
+   "presence_reco": 0.0,
+   "rank_reco": null,
+   "rank_spread": 0,
+   "stability_reco": null,
+   "sentiment": 1,
+   "n_claims": 18,
+   "contradicted": [
+    "オレンジのハンドクリームを商品例として挙げている。",
+    "無香料のハンドクリームを商品例として挙げている。",
+    "L'Occitaneにクラシックシリーズのハンドクリームがある",
+    "L'Occitaneにシルクシリーズのハンドクリームがある",
+    "L'Occitaneにシトラスシリーズのレモンハンドクリームがある",
+    "L'Occitaneにバニラシリーズのハンドクリームがある"
+   ],
+   "unverifiable": [
+    "ハンドクリームの価格帯はおおむね1,000円〜2,000円程度としている。",
+    "ラベンダーの大型ボトルは2,500円〜3,000円程度としている。",
+    "L'Occitaneの150mlハンドクリームの価格は2,500〜3,500円前後である。",
+    "L'Occitaneは公式店、楽天、Amazon、ドラッグストアなどで購入できる。",
+    "L'Occitaneにはパラベンフリー・アルコールフリーの商品が多い。"
+   ],
+   "sources": [
+    "日本のドラッグストア・デパートの公式サイト（ロッシュポエ、ビオレセール、資生堂、アヴェン、ニベア）",
+    "口コミサイト（Amazonレビュー、メディカルコスメティック専門サイト）",
+    "美容関連書籍（美肌の科学など）",
+    "ブランド公式サイト",
+    "口コミレビュー（Amazon、楽天、フルーツフラワーなど）"
+   ],
+   "top_competitors": [
+    "Shiseido",
+    "CeraVe"
+   ]
+  },
+  "JP|OpenAI": {
+   "market": "JP",
+   "assistant": "OpenAI",
+   "n_answers": 4,
+   "presence_all": 1.0,
+   "presence_reco": 1.0,
+   "rank_reco": 1,
+   "rank_spread": 0,
+   "stability_reco": null,
+   "sentiment": 1,
+   "n_claims": 20,
+   "contradicted": [
+    "オスマンサス、エルバヴェールをロクシタンのハンドクリームのラインとして挙げている",
+    "イモーテル ディヴァイン、アクアレオティエをロクシタンのハンドクリームのラインとして挙げている"
+   ],
+   "unverifiable": [
+    "保湿力が魅力である",
+    "豊富な香りがある",
+    "ギフトにも自分用にも選びやすい",
+    "シアシリーズは比較的しっとり感が強く、ヴァーベナ系は比較的軽い使用感である",
+    "ミニサイズやセット商品が多く、ギフトに適している",
+    "シア ハンドクリームにはシアバターが20％配合されていると述べている",
+    "シア ハンドクリームはシアバターを20％配合している",
+    "シア ハンドクリームはコクのある濃厚な使用感で、乾燥した手や冬、水仕事の後に向いている",
+    "L’Occitaneは香り、パッケージ、店舗体験を楽しめるブランドで、ギフトにも選びやすい",
+    "L’Occitaneのハンドクリームは比較的高価である"
+   ],
+   "sources": [
+    "各ブランド公式サイト（L’OCCITANE、花王アトリックス、Avène、Aesop、Kiehl’s）",
+    "L’OCCITANE公式オンラインショップ・各製品の商品情報",
+    "一般的なハンドケア成分・皮膚科領域の保湿ケア情報",
+    "ロクシタン公式日本サイト",
+    "ロクシタン公式オンラインショップ"
+   ],
+   "top_competitors": [
+    "Neutrogena"
+   ]
+  }
+ },
+ "plan": "## Plan lundi matin — L'Occitane / crème pour les mains\n\n### DE — Deutschland\n- **Cité mais mal classé** (rang moyen 4) → obtenir des tests/avis tiers en Deutsch ; renforcer la page catégorie locale avec des preuves (labels, chiffres).\n- **Erreur factuelle** : « Die Handcremes werden unter anderem mit Lavendel-, Orangen- und Vanilledüften angeboten. » → corriger les sources publiques que les modèles lisent : page produit officielle en Deutsch, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **Erreur factuelle** : « Die Preise liegen meist zwischen 20 und 40 Euro für 200 ml. » → corriger les sources publiques que les modèles lisent : page produit officielle en Deutsch, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **Erreur factuelle** : « L’Occitane bietet exklusive Parfüm-Cremes wie „Eau de Lavande“ an. » → corriger les sources publiques que les modèles lisent : page produit officielle en Deutsch, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **13 affirmation(s) non couverte(s) par la fiche de faits** → la marque vérifie et enrichit la fiche (ex. « L’Occitane ist eher ein Luxus-Genussprodukt als medizinische Pflege. »).\n- **Concurrent favori des assistants** : Neutrogena, Nivea, La Roche-Posay → auditer ses sources citées et s'y faire référencer.\n- **Sources déclarées par l'assistant** : Apotheken-Umsätze (z. B. Apotheken.de), Kundenbewertungen (Amazon, Douglas), dermatologische Empfehlungen (z. B. Hautarztverbände), Inhaltsstoffanalysen (z. B. Codecheck) → s'assurer d'y être présent et à jour en Deutsch.\n- **Réponses instables entre répétitions** → ne pas conclure sur une seule sonde ; suivre la tendance sur 3 mois.\n\n### FR — France\n- **Absent des recommandations spontanées** (0 % des réponses) → publier en français une page comparative « meilleures marques de crème pour les mains » sur le site et chez 2-3 médias/comparateurs locaux ; créer ou compléter la fiche Wikipédia fr.\n- **Erreur factuelle** : « L'Occitane propose une crème pour les mains Baobab. » → corriger les sources publiques que les modèles lisent : page produit officielle en français, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **Erreur factuelle** : « L'Occitane propose une crème pour les mains Figue de Barbarie. » → corriger les sources publiques que les modèles lisent : page produit officielle en français, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **Erreur factuelle** : « L'Occitane propose une Crème Hydratante Douceur ou une Crème Douceur. » → corriger les sources publiques que les modèles lisent : page produit officielle en français, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **9 affirmation(s) non couverte(s) par la fiche de faits** → la marque vérifie et enrichit la fiche (ex. « Les crèmes L’Occitane utilisent notamment de l’huile d’argan, de l’huile de macadamia et de l’huile de pépins de raisin. »).\n- **Concurrent favori des assistants** : Neutrogena, Nivea, La Roche-Posay → auditer ses sources citées et s'y faire référencer.\n- **Sources déclarées par l'assistant** : 60 Millions, Que Choisir, Trustpilot, Notez.com → s'assurer d'y être présent et à jour en français.\n\n### JP — 日本\n- **Erreur factuelle** : « オレンジのハンドクリームを商品例として挙げている。 » → corriger les sources publiques que les modèles lisent : page produit officielle en 日本語, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **Erreur factuelle** : « 無香料のハンドクリームを商品例として挙げている。 » → corriger les sources publiques que les modèles lisent : page produit officielle en 日本語, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **Erreur factuelle** : « L'Occitaneにクラシックシリーズのハンドクリームがある » → corriger les sources publiques que les modèles lisent : page produit officielle en 日本語, Wikidata/Wikipédia, fiches distributeurs ; demander la correction aux revendeurs.\n- **15 affirmation(s) non couverte(s) par la fiche de faits** → la marque vérifie et enrichit la fiche (ex. « ハンドクリームの価格帯はおおむね1,000円〜2,000円程度としている。 »).\n- **Concurrent favori des assistants** : Shiseido, CeraVe, Neutrogena → auditer ses sources citées et s'y faire référencer.\n- **Sources déclarées par l'assistant** : 日本のドラッグストア・デパートの公式サイト（ロッシュポエ、ビオレセール、資生堂、アヴェン、ニベア）, 口コミサイト（Amazonレビュー、メディカルコスメティック専門サイト）, 美容関連書籍（美肌の科学など）, ブランド公式サイト → s'assurer d'y être présent et à jour en 日本語.\n- **Réponses instables entre répétitions** → ne pas conclure sur une seule sonde ; suivre la tendance sur 3 mois.\n",
+ "results": [
+  {
+   "market": "FR",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P1_reco",
+   "rep": 1,
+   "question": "Je veux acheter crème pour les mains. Quelles marques me recommandes-tu ? Donne un classement des 5 meilleures marques, de la meilleure à la moins bonne, avec une phrase par marque.",
+   "answer": "Voici un classement des 5 meilleures marques de crèmes pour les mains en France, en tenant compte de leur efficacité, de leur texture, de leur rapport qualité-prix et de leur popularité auprès des consommateurs (notamment en pharmacies, parapharmacies et grandes surfaces) :\n\n1. **La Roche-Posay Cicaplast Baume Apaisant** – *La meilleure pour les peaux sensibles ou irritées*, grâce à sa formule à l’acide hyaluronique et au panthénol, idéale pour les mains abîchées ou sujettes aux rougeurs.\n\n2. **Avène XeraCalm AD Lipid-Replenishing Cream** – *Excellente pour les peaux très sèches ou atopiques*, avec un complexe lipidique qui restaure la barrière cutanée sans parfum ni alcool.\n\n3. **Nivea Soft** – *Un incontournable pour un rapport qualité-prix imbattable*, avec une texture légère et une hydratation durable, parfaite pour un usage quotidien.\n\n4. **Bioderma Atoderm Intensive Baume** – *Parfaite pour les peaux réactives ou déshydratées*, grâce à sa richesse en céramides et en huile de tournesol, testée dermatologiquement.\n\n5. **CeraVe Crème Réparatrice** – *Une alternative naturelle et économique*, avec des céramides et de l’acide hyaluronique pour réparer les peaux sèches ou abîchées par le froid ou le lavage fréquent.\n\n**Où les trouver ?** En pharmacie, parapharmacie (comme *Pharmacie des Alpes* ou *Naturalia*), ou en grande surface (Carrefour, Leclerc, etc.). Pour les peaux très sensibles, privilégiez les versions \"sans parfum\" ou \"hypoallergéniques\".\n\n**Petit conseil en plus** : Si tes mains sont très sèches en hiver, applique la crème juste après le lavage (quand la peau est encore humide) pour booster l’hydratation.\n\n---\n**SOURCES:** Avis consommateurs (Notez.com, Doctolib, forums comme *Doctissimo*), classements de pharmacies en ligne (Pharma2000, MyLloyds), études dermatologiques (revues comme *Journal of Cosmetic Dermatology*), et tests comparatifs (60 Millions, *Que Choisir*).",
+   "verdict": {
+    "brand_mentioned": false,
+    "brands_listed": [
+     "La Roche-Posay",
+     "Avène",
+     "Nivea",
+     "Bioderma",
+     "CeraVe"
+    ],
+    "brand_rank": null,
+    "sentiment": "absent",
+    "sources": [
+     "Notez.com",
+     "Doctolib",
+     "Doctissimo",
+     "Pharma2000",
+     "MyLloyds",
+     "Journal of Cosmetic Dermatology",
+     "60 Millions",
+     "Que Choisir"
+    ],
+    "claims": [],
+    "top_competitor": "Nivea"
+   },
+   "latency_answer": 4.49,
+   "latency_judge": 4.69
+  },
+  {
+   "market": "FR",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P2_opinion",
+   "rep": 1,
+   "question": "Que penses-tu de la marque L'Occitane pour crème pour les mains ? Points forts, points faibles, et à qui tu la recommanderais.",
+   "answer": "Ah, L'Occitane, une marque française qui a vraiment le vent en poupe ! Je vais te donner un avis très concret, comme si on se parlait en magasin ou en ligne.\n\n### **Points forts :**\n1. **Qualité des ingrédients** : L'Occitane mise sur des actifs naturels et locaux, comme l’huile de baobab, l’huile d’argan ou encore l’huile de figue de Barbarie. C’est parfait pour les peaux sensibles ou sèches, car les formules sont souvent douces et nourrissantes.\n\n2. **Texture et parfum** : Leurs crèmes pour les mains ont une texture riche mais qui s’absorbe bien, sans laisser de film gras. Les parfums (comme le *Baobab*, *Figue de Barbarie* ou *Lavande*) sont très agréables et durent longtemps.\n\n3. **Efficacité** : Même si ce n’est pas du luxe à 100€, leurs crèmes hydratent vraiment bien, surtout après une exposition au froid ou au soleil. Certaines contiennent même de la vitamine E ou du beurre de karité pour renforcer la barrière cutanée.\n\n4. **Engagement éthique** : La marque est très transparente sur ses sources (huiles végétales cultivées en France ou en Afrique du Nord) et soutient des projets locaux (comme les coopératives de femmes en Tunisie pour l’huile d’argan).\n\n5. **Prix raisonnable** : Comparé à des marques comme La Roche-Posay ou Avène, L'Occitane reste abordable (entre 15€ et 30€ pour un pot de 100ml).\n\n---\n\n### **Points faibles (ou limites) :**\n1. **Pas toujours bio** : Même si la plupart des ingrédients sont naturels, la marque n’est pas certifiée 100% bio (contrairement à des marques comme Bioderma ou Caudalie). Si tu cherches du 100% bio, il faudra regarder les labels.\n\n2. **Certaines textures trop riches** : Si tu as la peau grasse ou mixte, certaines crèmes peuvent sembler un peu trop épaisses (mais il y a des versions plus légères, comme la *Crème Hydratante Douceur*).\n\n3. **Parfums parfois trop sucrés** : Ceux qui n’aiment pas les fragrances florales ou fruitées peuvent trouver les parfums un peu \"trop\" gourmands.\n\n4. **Disponibilité** : En supermarché (comme Carrefour ou Monoprix), les gammes sont limitées. Pour avoir le choix complet, il faut souvent passer par leur site ou des parfumeries (Sephora, Nocibé).\n\n---\n\n### **À qui je la recommande ?**\n✅ **À toi si…**\n- Tu cherches une crème **nourrissante mais pas trop grasse**, avec un bon parfum.\n- Tu as la peau **sèche, sensible ou abîmée** (soleil, froid, eau dure).\n- Tu aimes les **marques françaises** et les ingrédients locaux.\n- Tu veux un bon rapport **qualité-prix** sans te ruiner.\n\n❌ **À éviter si…**\n- Tu préfères les **formules ultra-légères** (type gel) ou 100% bio certifié.\n- Tu es allergique aux **huiles essentielles** (certaines recettes en contiennent).\n- Tu cherches une **crème pour le visage** (mieux vaut regarder leur gamme *Visage* ou des marques comme Avene).\n\n---\n### **Mes coups de cœur dans leur gamme :**\n- **Crème Baobab** : La reine pour les peaux très sèches, ultra-nourrissante.\n- **Crème Figue de Barbarie** : Un peu plus légère, avec un parfum gourmand.\n- **Crème Lavande** : Parfaite pour le soir, très relaxante.\n- **Crème Douceur** : Version plus douce, idéale pour les peaux sensibles.\n\n---\n**Petit conseil en plus** : Si tu veux tester sans te ruiner, leurs petits pots (25ml) sont parfaits pour voir si tu aimes avant d’acheter un gros format.\n\nSOURCES: Avis consommateurs (Trustpilot, Google), analyses d’ingrédients (INCI), sites officiels L'Occitane, tests de produits (60 Millions, Que Choisir), forums de beauté (LikeToKnow.it, Reddit r/beauty).",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L'Occitane",
+     "La Roche-Posay",
+     "Avène",
+     "Bioderma",
+     "Caudalie",
+     "Carrefour",
+     "Monoprix",
+     "Sephora",
+     "Nocibé",
+     "Avene"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [
+     "Trustpilot",
+     "Google",
+     "INCI",
+     "sites officiels L'Occitane",
+     "60 Millions",
+     "Que Choisir",
+     "LikeToKnow.it",
+     "Reddit r/beauty"
+    ],
+    "claims": [
+     {
+      "claim": "L'Occitane est présentée comme une marque française.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitane propose une crème pour les mains Baobab.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane propose une crème pour les mains Figue de Barbarie.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane propose une crème pour les mains à la Lavande.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitane propose une Crème Hydratante Douceur ou une Crème Douceur.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "Les petits pots de crème pour les mains de L'Occitane existent en format de 25 ml.",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 20.65,
+   "latency_judge": 16.63
+  },
+  {
+   "market": "FR",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P3_products",
+   "rep": 1,
+   "question": "Quelles sont les gammes et produits de L'Occitane en crème pour les mains ? Liste-les avec leurs caractéristiques principales.",
+   "answer": "Chez L'Occitane, la gamme de crèmes pour les mains est très variée, avec des formules adaptées à différents besoins : hydratation, soin nourrissant, protection contre le froid, ou encore soins spécifiques pour les mains abîmées ou sensibles. Voici les principales gammes et produits disponibles en France, avec leurs caractéristiques principales :\n\n---\n\n### **1. Gamme \"Hydratation & Soin\" (pour un apport d’hydratation quotidien)**\n- **Crème pour les mains \"Huile d’Argile\"**\n  *Pour qui ?* Mains sèches ou sensibles.\n  *Caractéristiques* :\n  - Formulée avec de l’**huile d’argile rose** (riche en minéraux) et de l’**huile d’olive**, pour une hydratation intense et apaisante.\n  - Texture légère mais nourrissante, idéale pour une utilisation quotidienne.\n  - Sans parfum fort, adaptée aux peaux réactives.\n  *Emballage* : Flacon pompe de 100 ml.\n\n- **Crème pour les mains \"Lait d’Âne\"**\n  *Pour qui ?* Peaux très sèches ou abîmées (gerçures, crevasses).\n  *Caractéristiques* :\n  - À base de **lait d’ânesse pur** (connu pour ses propriétés réparatrices) et de **beurre de karité**.\n  - Texture ultra-nourrissante, presque grasse, qui forme un film protecteur.\n  - Parfaite pour les mains gercées ou exposées au froid.\n  *Emballage* : Pot de 100 ml (texture plus épaisse, à appliquer en fine couche).\n\n- **Crème pour les mains \"Huile d’Olive\"**\n  *Pour qui ?* Hydratation simple et économique.\n  *Caractéristiques* :\n  - Formulée à **100% d’huile d’olive pure**, sans additifs.\n  - Texture fluide et non grasse, pénètre rapidement.\n  - Idéale pour une utilisation en voyage ou en complément d’autres soins.\n  *Emballage* : Flacon pompe de 100 ml.\n\n---\n\n### **2. Gamme \"Protection & Réparation\" (pour les mains exposées ou abîmées)**\n- **Crème pour les mains \"Baume Réparateur\" (souvent en mini-format pour les voyages)**\n  *Pour qui ?* Mains très sèches, crevassées ou exposées au froid.\n  *Caractéristiques* :\n  - Mélange de **beurre de karité, huile de coco et cire d’abeille**, pour une réparation intense.\n  - Texture baume, facile à étaler, qui protège longtemps.\n  - Parfum léger et naturel (notes de vanille ou de miel).\n  *Emballage* : Mini-baume de 30 ml (pratique pour la poche) ou pot de 100 ml.\n\n- **Crème pour les mains \"Huile de Karité\"**\n  *Pour qui ?* Peaux très sèches ou déshydratées.\n  *Caractéristiques* :\n  - À base de **beurre de karité non raffiné** et d’huiles végétales.\n  - Texture riche mais non collante, idéale pour les mains gercées.\n  - Effet matifiant léger, sans brillances.\n  *Emballage* : Pot de 100 ml.\n\n- **Crème pour les mains \"Huile de Ricin\"**\n  *Pour qui ?* Mains sèches ou peaux matures (stimule la régénération cellulaire).\n  *Caractéristiques* :\n  - Riche en **acide ricinoléique**, qui aide à réparer la barrière cutanée.\n  - Texture légèrement visqueuse, pénètre bien.\n  - Parfum discret et végétal.\n  *Emballage* : Flacon pompe de 100 ml.\n\n---\n\n### **3. Gamme \"Luxe & Parfums\" (crèmes haut de gamme avec des ingrédients rares)**\n- **Crème pour les mains \"Huile d’Avocat\"**\n  *Pour qui ?* Peaux très sèches ou abîmées (idéal en hiver).\n  *Caractéristiques* :\n  - **Huile d’avocat pure** (riche en vitamines E et acides gras), associée à de l’huile d’amande douce.\n  - Texture ultra-nourrissante, presque onctueuse.\n  - Parfum léger et fruité (notes de mangue ou de vanille selon les éditions).\n  *Emballage* : Flacon doré ou argenté de 100 ml.\n\n- **Crème pour les mains \"Lait de Jument\" (édition limitée ou en boutique)**\n  *Pour qui ?* Peaux sensibles ou réactives.\n  *Caractéristiques* :\n  - À base de **lait de jument**, connu pour ses propriétés apaisantes et anti-inflammatoires.\n  - Texture légère mais très hydratante, sans alcool ni parfums agressifs.\n  *Note* : Souvent disponible en boutique L'Occitane ou lors d’éditions spéciales.\n\n- **Crème pour les mains \"Huile de Figue de Barbarie\"**\n  *Pour qui ?* Mains sèches ou matures (effet liftant).\n  *Caractéristiques* :\n  - **Huile de figuier de Barbarie**, riche en antioxydants et en acides gras.\n  - Texture fluide et non grasse, pénètre vite.\n  - Parfum frais et légèrement fruité.\n  *Emballage* : Flacon transparent de 100 ml.\n\n---\n\n### **4. Gamme \"Protection Froid\" (pour les mains exposées en hiver)**\n- **Crème pour les mains \"Baume Protection Froid\"**\n  *Pour qui ?* Mains exposées au vent, au froid ou au gel.\n  *Caractéristiques* :\n  - Formulée avec de la **cire d’abeille et de l’huile de coco** pour un effet barrière.\n  - Texture baume, facile à étaler, qui protège contre le dessèchement.\n  - Parfum gourmand (vanille, caramel).\n  *Emballage* : Pot de 100 ml ou mini-baume de 30 ml.\n\n- **Crème pour les mains \"Huile de Noyaux de Cerise\" (protection hiver)**\n  *Pour qui ?* Peaux très sèches en période froide.\n  *Caractéristiques* :\n  - **Huile de noyaux de cerise**, riche en vitamine E, associée à de l’huile d’argan.\n  - Texture riche mais fondante, nourrit en profondeur.\n  *Emballage* : Flacon pompe de 100 ml.\n\n---\n\n### **5. Gamme \"Soin Express\" (pour un usage rapide)**\n- **Crème pour les mains \"Huile d’Olive Express\" (mini-format)**\n  *Pour qui ?* Hydratation rapide en déplacement.\n  *Caractéristiques* :\n  - Version mini (30 ml) de la crème à l’huile d’olive pure.\n  - Idéale pour la voiture, le bureau ou les voyages.\n  *Emballage* : Flacon compact.\n\n- **Crème pour les mains \"Baume Réparateur Express\"**\n  *Pour qui ?* Urgences (mains gercées ou abîmées).\n  *Caractéristiques* :\n  - Baume ultra-concentré à base de **beurre de karité et huile de coco**.\n  - Texture très riche, répare en quelques applications.\n  *Emballage* : Mini-baume de 30 ml.\n\n---\n\n### **6. Gamme \"Bio\" (certifiée cosmétique bio)**\nL'Occitane propose aussi des crèmes pour les mains **100% bio**, certifiées par Ecocert :\n- **Crème pour les mains \"Huile d’Olive Bio\"**\n  - **100% huile d’olive bio**, sans additifs synthétiques.\n  - Texture fluide et non grasse.\n  *Emballage* : Flacon en verre recyclable.\n\n- **Crème pour les mains \"Lait d’Âne Bio\"**\n  - **Lait d’ânesse bio** et beurre de karité bio.\n  - Parfaite pour les peaux très sèches ou sensibles.\n  *Emballage* : Pot en verre.\n\n---\n### **Conseils d’utilisation** :\n- **Pour les peaux normales/sèches** : Privilégiez l’**huile d’olive** ou la **crème au lait d’âne** le soir.\n- **Pour les peaux très sèches/crevassées** : Optez pour le **baume réparateur** ou la **crème à l’huile d’avocat**.\n- **En hiver** : Le **baume protection froid** ou la **crème à l’huile de ricin",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L'Occitane"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [],
+    "claims": [
+     {
+      "claim": "L'Occitane propose une gamme de crèmes pour les mains « Hydratation & Soin », notamment une crème « Huile d’Argile ».",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane propose une crème pour les mains « Lait d’Âne ».",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane propose une crème pour les mains « Huile d’Olive ».",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane propose une gamme « Protection & Réparation », notamment un « Baume Réparateur ».",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane propose une crème pour les mains « Huile de Karité ».",
+      "status": "contradicted"
+     },
+     {
+      "claim": "Les crèmes pour les mains L'Occitane sont proposées en formats de 100 ml.",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 16.19,
+   "latency_judge": 9.83
+  },
+  {
+   "market": "FR",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P4_compare",
+   "rep": 1,
+   "question": "Entre L'Occitane et ses concurrents en crème pour les mains, lequel choisir et pourquoi ? Précise sur quelles sources (sites, tests, avis) tu t'appuies.",
+   "answer": "Choisir entre **L’Occitane** et ses concurrents pour une crème pour les mains dépend de tes besoins spécifiques (type de peau, budget, valeurs éthiques, efficacité, etc.). Voici une comparaison détaillée pour t’aider à décider, avec des arguments concrets et des références vérifiables.\n\n---\n\n### **1. L’Occitane : le choix premium et naturel**\n**Pourquoi le choisir ?**\n- **Formules riches en actifs naturels** :\n  - Les crèmes L’Occitane (comme la *Crème Réparatrice aux Huiles Végétales* ou la *Crème Hydratante au Shea*) misent sur des ingrédients comme l’huile d’argan, le beurre de karité, l’huile de macadamia ou l’huile de pépins de raisin, reconnus pour leur pouvoir hydratant et réparateur. Ces actifs sont souvent testés pour leur efficacité (études dermatologiques ou cosmétovigilance).\n  - Exemple : La *Crème aux Huiles Végétales* contient **98% d’ingrédients d’origine naturelle** (source : [site officiel L’Occitane](https://www.loccitane.com/fr-fr), fiche produit).\n\n- **Texture légère mais nourrissante** :\n  - Idéale pour les peaux sèches à très sèches, ou sensibles (certaines références sont hypoallergéniques). La texture s’absorbe rapidement sans laisser de film gras, grâce à des émulsifiants naturels comme le *cétéaryl alcohol* (dérivé d’huiles végétales).\n\n- **Parfums envoûtants** :\n  - Les fragrances (lavande, vanille, bois de santal) sont souvent saluées pour leur côté apaisant et élégant, un critère important pour beaucoup de consommateurs.\n\n- **Engagement éthique et durable** :\n  - L’Occitane travaille avec des producteurs locaux (ex : beurre de karité du Burkina Faso, huile d’argan du Maroc) et s’engage dans des pratiques responsables (certifications *COSMOS Organic*, *Cruelty-Free*).\n  - **Inconvénient** : Prix élevé (compter **20–40€** pour 100–200ml), ce qui peut être un frein.\n\n- **Tests et avis** :\n  - Les crèmes L’Occitane obtiennent régulièrement des notes élevées dans les tests indépendants :\n    - **Test de *60 Millions de Consommateurs*** (2022) : La *Crème Réparatrice* a été classée parmi les meilleures pour les peaux très sèches, avec une note de **17/20** (meilleure hydratation après 24h).\n    - **Avis sur *Trustpilot*** (moyenne **4,5/5** sur 1 200 avis) : Les utilisateurs soulignent l’efficacité sur le long terme et le plaisir olfactif.\n    - **Dermatologues** : Recommandées pour les peaux atopiques (ex : avis du Dr. Jean-Marie Zevaco, dermatologue, cité dans *Allodocteurs*).\n\n---\n\n### **2. Les concurrents à comparer**\nVoici 3 alternatives selon tes critères (prix, efficacité, ingrédients) :\n\n#### **A. La Roche-Posay Lipikar Baume AP+M (pour peaux très sèches/atopiques)**\n- **Pourquoi ?**\n  - **Spécialisée dermatologique** : Formulée pour les peaux très sèches, atopiques ou irritées, avec de la **glycérine végétale** et du **ceramide AP** (répare la barrière cutanée).\n  - **Texture ultra-nourrissante** : Plus riche que L’Occitane, idéale pour les mains gercées ou exposées au froid.\n  - **Prix** : ~15–20€ pour 40ml (plus économique à l’usage).\n  - **Tests** :\n    - *60 Millions de Consommateurs* (2021) : Note de **18/20** pour l’efficacité sur les peaux atopiques.\n    - **Avis sur *Docteur Bon*** : 90% des utilisateurs satisfaits, surtout pour les peaux réactives.\n\n- **Quand choisir plutôt que L’Occitane ?**\n  - Si tu as une **peau très sèche, irritée ou atopique**.\n  - Si tu veux une **solution médicale légère** (disponible en pharmacie).\n\n---\n\n#### **B. Bioderma Atoderm Intensive Baume (pour peaux sensibles)**\n- **Pourquoi ?**\n  - **Hypoallergénique et apaisante** : Sans parfum, avec de la **glycérine** et du **panthénol**, idéal pour les peaux réactives ou allergiques.\n  - **Texture légère mais réparatrice** : S’absorbe bien sans être grasse.\n  - **Prix** : ~22€ pour 40ml (proche de L’Occitane).\n  - **Tests** :\n    - *Test clinique Bioderma* : Réduit les tiraillements de **70%** en 4 semaines (source : [site Bioderma](https://www.bioderma.fr)).\n    - **Avis sur *Parfums de Femmes*** : Notée **4,8/5**, surtout pour les peaux sensibles.\n\n- **Quand choisir plutôt que L’Occitane ?**\n  - Si tu as une **peau sensible ou allergique** (les parfums de L’Occitane peuvent irriter).\n  - Si tu veux une **marque française haut de gamme** avec des actifs dermatologiques.\n\n---\n\n#### **C. Nuxe Baume B5 (pour hydratation intense et anti-âge)**\n- **Pourquoi ?**\n  - **Actif anti-âge** : Contient de la **vitamine B5** (panthénol) et de l’**huile de macadamia**, qui stimulent la régénération cellulaire.\n  - **Texture riche mais non grasse** : Parfaite pour les mains matures ou exposées au soleil.\n  - **Prix** : ~28€ pour 50ml (un peu moins cher que L’Occitane pour le volume).\n  - **Tests** :\n    - *Test *Cosmétique Magazine*** (2023) : Meilleure crème pour les mains \"fatiguées\" (note **9/10**).\n    - **Avis sur *Cult Beauty*** : Saluée pour son **effet \"second peau\"** après application.\n\n- **Quand choisir plutôt que L’Occitane ?**\n  - Si tu veux une **crème anti-âge** en plus d’hydratante.\n  - Si tu préfères les **parfums plus discrets** (moins sucrés que L’Occitane).\n\n---\n#### **D. Alternative économique : Eucerin UreaRepair 10% (pour peaux très sèches)**\n- **Pourquoi ?**\n  - **Urée à 10%** : Idéale pour les mains très sèches ou gercées (agit comme un exfoliant doux + hydratant).\n  - **Prix** : ~12€ pour 75ml (le meilleur rapport qualité-prix).\n  - **Tests** :\n    - *Test *Allure Magazine*** : \"La meilleure crème pour les mains gercées\" (2022).\n    - **Avis sur *Amazon*** : 4,6/5, avec des retours sur la **disparition des crevasses en 1 semaine**.\n\n- **Quand choisir plutôt que L’Occitane ?**\n  - Si tu as un **budget serré** mais des mains très abîmées.\n  - Si tu veux un **effet immédiat** (l’urée pénètre rapidement).\n\n---\n\n### **3. Tableau comparatif rapide**\n| Critère               | L’Occitane               | La Roche-Posay Lipikar | Bioderma Atoderm       | Nuxe Baume B5          | Eucerin UreaRepair 10% |\n|-----------------------|--------------------------|------------------------|------------------------|------------------------|------------------------|\n| **Type de peau**      | Sèche à très sèche       | Très sèche/atopique    | Sensible/allergique    | Sèche/mature           | Très sèche/gercées     |\n| **Prix (50–100ml)**   | 25–40€                   | 15–20€                 | 20–25€                 | 25–30€                 | 10–15€                 |\n| **Actifs clés**       | Huiles végétales         | Ceramides + glycérine   | Panthénol + glycérine  | Vitamine B5 + macadamia | Urée 10%               |\n| **Parf",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "La Roche-Posay",
+     "Bioderma",
+     "Nuxe",
+     "Eucerin"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "sources": [
+     "site officiel L’Occitane",
+     "60 Millions de Consommateurs",
+     "Trustpilot",
+     "Allodocteurs",
+     "Docteur Bon",
+     "site Bioderma",
+     "Parfums de Femmes",
+     "Cosmétique Magazine",
+     "Cult Beauty",
+     "Allure Magazine",
+     "Amazon"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane est une marque française de cosmétiques.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane propose une « Crème Réparatrice aux Huiles Végétales » pour les mains.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane propose une « Crème Hydratante au Shea ».",
+      "status": "consistent"
+     },
+     {
+      "claim": "Les crèmes L’Occitane utilisent notamment de l’huile d’argan, de l’huile de macadamia et de l’huile de pépins de raisin.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "La « Crème aux Huiles Végétales » contient 98 % d’ingrédients d’origine naturelle.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "Les crèmes pour les mains L’Occitane coûtent environ 20–40 € pour 100–200 ml.",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": "La Roche-Posay"
+   },
+   "latency_answer": 16.34,
+   "latency_judge": 23.48
+  },
+  {
+   "market": "DE",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P1_reco",
+   "rep": 1,
+   "question": "Ich möchte crème pour les mains kaufen. Welche Marken empfiehlst du? Gib eine Rangliste der 5 besten Marken, von der besten zur schwächsten, mit je einem Satz pro Marke.",
+   "answer": "Hier ist eine Rangliste mit fünf hochwertigen Marken für **Crème pour les mains** (Handcremes), basierend auf Qualität, Inhaltsstoffen und Beliebtheit in Deutschland:\n\n1. **La Roche-Posay Lipikar AP+M** – Ideal für trockene, empfindliche oder zu Ekzemen neigende Haut, mit Hyaluronsäure und Ceramiden für intensive Pflege.\n2. **Eucerin UreaRepair 10%** – Perfekt für stark trockene oder rissige Hände dank 10 % Harnstoff, der die Hautbarriere regeneriert.\n3. **Bioderma Atoderm Intensive Baume** – Eine sanfte, beruhigende Creme mit Glycerin und Panthenol, besonders für allergische oder gereizte Haut.\n4. **CeraVe Healing Ointment** – Reichhaltig mit Ceramiden und Cholesterin, ideal für sehr trockene Haut und unterkühlte Hände.\n5. **Nivea Soft 50+** – Ein bewährter Klassiker mit Urea und Sheabutter, gut für den Alltag, aber weniger intensiv als die ersten vier.\n\n**Tipp:** Achte auf **Urea (Harnstoff)**, **Ceramide** oder **Hyaluronsäure** in der Zutatenliste für maximale Pflegewirkung.\n\nSOURCES: Apotheken-Umsätze (z. B. Apotheken.de), Kundenbewertungen (Amazon, Douglas), dermatologische Empfehlungen (z. B. Hautarztverbände), Inhaltsstoffanalysen (z. B. Codecheck).",
+   "verdict": {
+    "brand_mentioned": false,
+    "brands_listed": [
+     "La Roche-Posay",
+     "Eucerin",
+     "Bioderma",
+     "CeraVe",
+     "Nivea"
+    ],
+    "brand_rank": null,
+    "sentiment": "absent",
+    "sources": [
+     "Apotheken-Umsätze (z. B. Apotheken.de)",
+     "Kundenbewertungen (Amazon, Douglas)",
+     "dermatologische Empfehlungen (z. B. Hautarztverbände)",
+     "Inhaltsstoffanalysen (z. B. Codecheck)"
+    ],
+    "claims": [],
+    "top_competitor": "Nivea"
+   },
+   "latency_answer": 3.38,
+   "latency_judge": 7.78
+  },
+  {
+   "market": "DE",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P2_opinion",
+   "rep": 1,
+   "question": "Was hältst du von der Marke L'Occitane bei crème pour les mains? Stärken, Schwächen, und wem du sie empfehlen würdest.",
+   "answer": "L’Occitane ist eine sehr bekannte Marke für Naturkosmetik und Hautpflege, besonders ihre Handcremes sind bei vielen beliebt – aber ob sie für dich passt, hängt von deinen Bedürfnissen ab. Hier eine ehrliche Einschätzung:\n\n### **Stärken:**\n1. **Natürliche Inhaltsstoffe**: Die Marke setzt stark auf pflanzliche Extrakte (z. B. Sheabutter, Lavendel, Mandelöl) und vermeidet synthetische Duftstoffe oder schädliche Chemikalien. Das spricht besonders Menschen an, die auf Bio- oder Clean Beauty achten.\n2. **Duftprofile**: Viele ihrer Cremes haben angenehme, natürliche Düfte (z. B. Lavendel, Orange, Vanille), die entspannend wirken und gut zu Alltag oder Urlaub passen.\n3. **Hautfreundlichkeit**: Die Textur ist oft leicht bis cremig, nicht zu fettig, und eignet sich gut für normale bis trockene Haut. Besonders die **Crème de la Main** (die Klassiker mit Sheabutter) ist ein Favorit für raue Hände oder Winterhaut.\n4. **Preis-Leistung**: Im Vergleich zu Luxusmarken wie La Prairie oder Chanel ist L’Occitane erschwinglicher – die Preise liegen meist zwischen **20 und 40 €** für 200 ml.\n5. **Nachhaltigkeit**: Die Marke gibt an, auf ethische Rohstoffquellen zu achten (z. B. zertifizierter Lavendel aus der Provence) und recycelbare Verpackungen zu nutzen.\n\n### **Schwächen:**\n1. **Kein Wundermittel für alle Hauttypen**:\n   - Bei **fettiger Haut** oder Akne kann die Creme zu schwer wirken (manche Formeln enthalten zwar keine Komedogene, aber die Konsistenz ist oft reichhaltig).\n   - **Empfindliche Haut** mit Neurodermitis oder Allergien sollte auf Inhaltsstoffe wie **Lanolin** (in einigen Varianten) oder **Parfüm** (auch wenn natürlich) achten – hier lohnt ein Blick auf die INCI-Liste.\n2. **Düfte polarisieren**: Nicht jeder mag den intensiven Lavendel- oder Vanilleduft – manche finden ihn zu \"kitschig\" oder sogar überdeckend.\n3. **Wirkung begrenzt**: L’Occitane ist keine medizinische Pflege (z. B. für stark schuppige Haut oder Ekzeme), sondern eher ein Luxus-Genussprodukt. Bei schweren Hautproblemen sind spezifischere Marken wie **Bioderma** oder **La Roche-Posay** besser.\n4. **Preis bei Duftkreationen**: Die exklusiven Parfüm-Cremes (z. B. mit \"Eau de Lavande\") sind teurer und bringen oft wenig mehr als die klassischen Sorten.\n\n### **Für wen ich sie empfehle:**\n✅ **Du suchst eine hochwertige, duftende Handcreme** mit natürlichem Touch – besonders im Winter oder für trockene Hände.\n✅ **Du legst Wert auf Nachhaltigkeit und transparente Inhaltsstoffe** (auch wenn nicht alles vegan ist).\n✅ **Du magst französische Eleganz** und willst ein schönes Ritual (z. B. die kleine Dose als Geschenk).\n✅ **Deine Haut ist normal bis trocken**, aber nicht extrem sensibel.\n\n### **Alternativen, wenn L’Occitane nicht passt:**\n- **Für fettige Haut**: **Nivea Q10** oder **La Roche-Posay Cicaplast**.\n- **Für empfindliche Haut**: **Avène XeraCalm** oder **Bioderma Atoderm**.\n- **Für Budget**: **Dr. Hauschka Handcreme** oder **Weleda Pflegecreme**.\n- **Für Duft-Fans mit mehr Wirkung**: **Sol de Janeiro** (tropische Düfte) oder **Fresh** (zitrusfrisch).\n\n**Tipp**: Probier am besten die **Crème de la Main** (Sheabutter) oder **Lavender** aus – die sind die Klassiker und weniger riskant als die Parfüm-Varianten.\n\n---\n**SOURCES:**\n- Offizielle Website von L’Occitane (Inhaltsstofflisten, Nachhaltigkeitsberichte)\n- Bewertungen auf Plattformen wie **Douceur Français**, **Cult Beauty** und **Hautarzt-Foren** (z. B. Hautarztforum.de)\n- Studien zu pflanzlichen Extrakten (z. B. Sheabutter in der Dermatologie)\n- Vergleichsanalysen von Clean-Beauty-Magazinen wie **Vogue Beauty Deutschland** oder **Cosmopolitan**",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "La Prairie",
+     "Chanel",
+     "Bioderma",
+     "La Roche-Posay",
+     "Nivea",
+     "Avène",
+     "Dr. Hauschka",
+     "Weleda",
+     "Sol de Janeiro",
+     "Fresh"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [
+     "Offizielle Website von L’Occitane (Inhaltsstofflisten, Nachhaltigkeitsberichte)",
+     "Douceur Français",
+     "Cult Beauty",
+     "Hautarzt-Foren, z. B. Hautarztforum.de",
+     "Studien zu pflanzlichen Extrakten, z. B. Sheabutter in der Dermatologie",
+     "Vergleichsanalysen von Clean-Beauty-Magazinen wie Vogue Beauty Deutschland oder Cosmopolitan"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane verwendet pflanzliche Inhaltsstoffe beziehungsweise Extrakte wie Sheabutter, Lavendel und Mandelöl.",
+      "status": "consistent"
+     },
+     {
+      "claim": "Die Crème de la Main beziehungsweise die klassischen Handcremes mit Sheabutter sind ein Favorit für raue Hände oder Winterhaut.",
+      "status": "consistent"
+     },
+     {
+      "claim": "Die Handcremes werden unter anderem mit Lavendel-, Orangen- und Vanilledüften angeboten.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "Die Preise liegen meist zwischen 20 und 40 Euro für 200 ml.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane bietet exklusive Parfüm-Cremes wie „Eau de Lavande“ an.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane ist eher ein Luxus-Genussprodukt als medizinische Pflege.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 8.66,
+   "latency_judge": 19.58
+  },
+  {
+   "market": "DE",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P3_products",
+   "rep": 1,
+   "question": "Welche Produktlinien und Produkte hat L'Occitane im Bereich crème pour les mains? Liste sie mit ihren wichtigsten Merkmalen auf.",
+   "answer": "L’Occitane bietet eine breite Auswahl an **Handcremes**, die sich auf natürliche Inhaltsstoffe, pflegende Texturen und hochwertige Duftnoten konzentrieren. Hier sind die wichtigsten Produktlinien und Einzelprodukte mit ihren Hauptmerkmalen:\n\n---\n\n### **1. Klassische Produktlinie (Standard-Pflege)**\n**Für:** Trockene, rissige oder strapazierte Haut, täglich geeignet.\n\n- **Crème Pour Les Mains \"Lait de Miel\" (Honig)**\n  - **Merkmale:** Reichhaltige Textur mit **100 % reinem französischen Honig**, Sheabutter und Mandelöl. Ideal für sehr trockene Haut, spendet intensive Feuchtigkeit und beruhigt.\n  - **Duft:** Natürlich süßlich (Honig), leicht blumig.\n  - **Besonderheit:** Enthält **Propolis** für antibakterielle Wirkung.\n  - **Verpackung:** 50 ml oder 200 ml (Dose mit Pumpmechanismus).\n\n- **Crème Pour Les Mains \"Lait de Coco\" (Kokos)**\n  - **Merkmale:** Leichtere Textur mit **Kokosöl, Sheabutter und Aloe Vera**, spendet Feuchtigkeit ohne zu fetten. Gut für normale bis trockene Haut.\n  - **Duft:** Frisch-kokosnussig mit einer leichten blumigen Note.\n  - **Besonderheit:** Enthält **Sheabutter** für die Hautbarriere.\n  - **Verpackung:** 50 ml oder 200 ml.\n\n- **Crème Pour Les Mains \"Lait d’Amande Douce\" (Mandel)**\n  - **Merkmale:** Sanfte, leicht einziehende Creme mit **süßer Mandel** und **Sheabutter**, ideal für empfindliche Haut oder unterwegs.\n  - **Duft:** Mild-süß mit Mandelaroma.\n  - **Besonderheit:** **Ohne Parfüm** (parfümfrei), geeignet für Allergiker (mit \"Hypoallergenic\"-Hinweis).\n  - **Verpackung:** 50 ml oder 200 ml.\n\n- **Crème Pour Les Mains \"Lait de Tige de Coco\" (Kokosnussstängel)**\n  - **Merkmale:** **Kokosnusswasser** und **Sheabutter** für eine leichte, aber wirksame Pflege. Enthält **Vitamin E** als Antioxidans.\n  - **Duft:** Frisch und leicht tropisch.\n  - **Besonderheit:** **Vegan** und ohne tierische Inhaltsstoffe.\n  - **Verpackung:** 50 ml.\n\n---\n\n### **2. Speziallinien (für spezielle Hautbedürfnisse)**\n#### **A. \"L’Occitane en Provence – Soin Réparateur\" (Reparaturpflege)**\n**Für:** Extrem trockene, rissige oder schuppige Haut (z. B. durch Heizungsluft oder Winter).\n- **Crème Pour Les Mains \"Réparateur\"**\n  - **Merkmale:** **Ultra-reichhaltig** mit **Sheabutter, Bienenwachs und Lanolin**, repariert die Hautbarriere. Enthält **Shea Butter aus Madagaskar** (hoher Fettgehalt).\n  - **Duft:** Neutral-würzig (leicht holzig).\n  - **Besonderheit:** **Ohne Duftstoffe** (nur natürliche Aromen), ideal für sehr trockene Hände.\n  - **Verpackung:** 50 ml oder 200 ml.\n\n#### **B. \"L’Occitane en Provence – Soin Hydra-Vital\" (Feuchtigkeitsspendend)**\n**Für:** Normale bis trockene Haut mit Fokus auf langanhaltende Hydration.\n- **Crème Pour Les Mains \"Hydra-Vital\"**\n  - **Merkmale:** **Hyaluronsäure, Sheabutter und Mandelöl** für intensive Feuchtigkeit. Leichtere Textur als die Reparaturcreme, aber nachhaltig.\n  - **Duft:** Blumig-fruchtig (inspiriert von provenzalischen Kräutern).\n  - **Besonderheit:** **SPF 15** (UV-Schutz für Hände – praktisch für Gartenarbeit oder Alltag).\n  - **Verpackung:** 50 ml oder 200 ml.\n\n#### **C. \"L’Occitane en Provence – Soin Douceur\" (Beruhigend)**\n**Für:** Empfindliche, gereizte oder zu Rosacea neigende Haut.\n- **Crème Pour Les Mains \"Douceur\"**\n  - **Merkmale:** **Aloe Vera, Panthenol und Bisabolol** (beruhigend), ohne Alkohol oder aggressive Duftstoffe.\n  - **Duft:** Sehr mild, fast geruchlos.\n  - **Besonderheit:** **Für empfindliche Haut** (auch bei Ekzemen oder Neurodermitis geeignet).\n  - **Verpackung:** 50 ml.\n\n#### **D. \"L’Occitane en Provence – Soin Nourrissant\" (Nährende Pflege)**\n**Für:** Haut, die nach intensiver Pflege sucht (z. B. nach Peeling oder bei sehr trockenen Händen).\n- **Crème Pour Les Mains \"Nourrissant\"**\n  - **Merkmale:** **Kakaobutter, Sheabutter und Jojobaöl** – extrem reichhaltig, spendet über Stunden Feuchtigkeit.\n  - **Duft:** Schokoladen-kakaoartig, warm-würzig.\n  - **Besonderheit:** **Perfekt für die Nacht** oder vor dem Schlafengehen.\n  - **Verpackung:** 50 ml.\n\n---\n\n### **3. Limited Editions & Saisonale Produkte**\nL’Occitane veröffentlicht regelmäßig **Saisonkollektionen** mit besonderen Düften und Inhaltsstoffen. Aktuelle Beispiele (Stand 2024):\n- **\"Crème Pour Les Mains 'Pétale de Rose'\"** (Rosenblüten-Extrakt, duftet blumig-rosig).\n- **\"Crème Pour Les Mains 'Citron Vert'\"** (frischer Zitronen-Duft mit Aloe Vera für eine leichte Pflege).\n- **\"Crème Pour Les Mains 'Vanille Bourbon'\"** (süße Vanille-Note mit Mandelöl).\n\n*Hinweis:* Diese sind oft nur begrenzt verfügbar (z. B. in Parfümerien oder Online-Shops wie **L’Occitane.de** oder **Douglas**).\n\n---\n\n### **4. Mini-Formate & Travel-Sets**\nFür unterwegs:\n- **Crème Pour Les Mains \"Lait de Miel\" (Mini, 30 ml)** – Praktisch für die Handtasche.\n- **Travel-Set \"Les Indispensables\"** (enthält Mini-Cremes, Balsam und Handschuhe).\n\n---\n### **Wichtige Inhaltsstoffe in fast allen Handcremes:**\n✅ **Sheabutter** (beruhigend, reparierend)\n✅ **Mandelöl oder Kokosöl** (feuchtigkeitsspendend)\n✅ **Bienenwachs/Lanolin** (in Reparaturcremes für intensive Pflege)\n✅ **Aloe Vera** (beruhigend, kühlend)\n✅ **Panthenol** (bei empfindlicher Haut)\n✅ **Vitamin E** (Antioxidans)\n\n❌ **Kein Parabene, Phthalate oder künstliche Duftstoffe** (in den meisten Linien).\n\n---\n### **Preisrahmen (ca., Stand 2024):**\n- **50 ml:** 8–15 €\n- **200 ml:** 15–25 €\n- **Mini/Travel:** 5–10 €\n\n**Wo kaufen?**\n- **Offizielle Website:** [L’Occitane.de](https://www.loccitane.de)\n- **Parfümerien:** Douglas, Parfümerie Doucet, DM (teilweise)\n- **Drogerien:** Rossmann (manche Sorten), DM (selten)\n\n---\n**Tipp:** Für sehr trockene Hände lohnt sich die **\"Réparateur\"-Creme** oder die **\"Lait de Miel\"**. Bei empfindlicher Haut die **\"Douceur\"-Linie**. Die **\"Hydra-Vital\"** ist ein Allrounder mit UV-Schutz.\n\nSOURCES: Offizielle L’Occitane Produktbeschreibungen (L’Occitane.de), Douglas-Shop, Parfümerie-Doucet, Kosmetik-Datenbanken wie **CosDNA** und **INCI Decoder**.",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "L’Occitane en Provence"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "absent": null,
+    "sources": [
+     "L’Occitane.de",
+     "Douglas-Shop",
+     "Parfümerie-Doucet",
+     "CosDNA",
+     "INCI Decoder"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane offers a hand-cream line called “Lait de Miel”.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane offers a hand-cream line called “Lait de Coco”.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane offers a hand-cream line called “Lait de Tige de Coco”.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane has a “Soin Réparateur” hand-care line.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane has “Hydra-Vital” and “Douceur” hand-cream lines.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane sells hand creams in 50 ml and 200 ml formats.",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 16.8,
+   "latency_judge": 18.69
+  },
+  {
+   "market": "DE",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P4_compare",
+   "rep": 1,
+   "question": "L'Occitane oder die Konkurrenz bei crème pour les mains – was soll ich wählen und warum? Nenne die Quellen (Websites, Tests, Bewertungen), auf die du dich stützt.",
+   "answer": "Bei der Wahl zwischen **L'Occitane** und anderen Marken für eine **Hautcreme für die Hände** kommt es auf deine Hautbedürfnisse, Budget und Vorlieben an. Hier ein Vergleich mit konkreten Empfehlungen:\n\n### **1. L'Occitane – Vorteile & Nachteile**\n**Vorteile:**\n- **Natürliche Inhaltsstoffe**: L'Occitane setzt auf pflanzliche Öle (z. B. Sheabutter, Mandelöl, Lavendel) und ist oft vegan (außer bei einigen Parfümvarianten).\n- **Beruhigende Wirkung**: Ideal bei trockener oder gereizter Haut, besonders die **\"Hydraphase Intense\"** (mit Hyaluronsäure und Glycerin).\n- **Duft**: Klassische, angenehme Düfte (z. B. Lavendel, Mandelblüte).\n- **Preis-Leistung für Luxus**: Etwas teurer, aber hochwertige Textur und Wirkung.\n\n**Nachteile:**\n- **Preis**: Ab ~15–25 € für 50–100 ml (teurer als Drogerie-Alternativen).\n- **Parfüm**: Nicht für alle geeignet (kann bei empfindlicher Haut reizen).\n\n**Beste Wahl bei L'Occitane:**\n- **\"Hydraphase Intense\"** (für trockene Haut)\n- **\"Shea Butter Hand Cream\"** (beruhigend, pflegend)\n\n---\n\n### **2. Alternativen aus der Drogerie (günstiger, aber oft ähnlich gut)**\n#### **a) Balea (DM) – \"Handcreme mit Sheabutter\"**\n- **Vorteile**:\n  - Sehr günstig (~3–5 € für 200 ml).\n  - Enthält Sheabutter und Panthenol – gut für leicht trockene Haut.\n  - Duftneutral oder mild.\n- **Nachteile**:\n  - Weniger intensiv als L'Occitane, aber für Alltagsgebrauch perfekt.\n\n#### **b) Nivea (DM/Rossmann) – \"Q10 Plus Handcreme\"**\n- **Vorteile**:\n  - Mit Coenzym Q10 (antioxidativ, schützt vor Umwelteinflüssen).\n  - Leichte Textur, schnell einziehend.\n  - Preis: ~5–8 € für 100 ml.\n- **Nachteile**:\n  - Nicht so reichhaltig wie L'Occitane für extrem trockene Haut.\n\n#### **c) La Roche-Posay (Apotheke) – \"Cicalfate+ Handcreme\"**\n- **Vorteile**:\n  - **Medizinisch getestet** – ideal bei schuppiger, gereizter Haut (z. B. durch Kälte oder Heizungsluft).\n  - Enthält Zink und Panthenol.\n  - Preis: ~10–15 € für 50 ml.\n- **Nachteile**:\n  - Etwas teurer als Drogerie-Marken, aber besser für sensible Haut.\n\n#### **d) Weleda (Bio-Option) – \"Handcreme mit Calendula\"**\n- **Vorteile**:\n  - **Natürliche, bio-zertifizierte Inhaltsstoffe** (kein Parfüm, nur pflanzliche Öle).\n  - Beruhigend bei Rötungen oder Ekzemen.\n  - Preis: ~12–18 € für 50 ml.\n- **Nachteile**:\n  - Etwas fettiger als L'Occitane, aber perfekt für empfindliche Haut.\n\n#### **e) Eucerin (Apotheke) – \"UreaRepair Handcreme\"**\n- **Vorteile**:\n  - **Mit Harnstoff (10%)** – ideal bei sehr trockener, rauer Haut.\n  - Medizinisch wirksam, aber nicht klebrig.\n  - Preis: ~10–15 € für 50 ml.\n- **Nachteile**:\n  - Nicht für normale Haut geeignet (zu intensiv).\n\n---\n\n### **3. Wann welche Marke?**\n| **Hauttyp/Bedürfnis**       | **Beste Wahl**                          | **Budget-Option**               |\n|-----------------------------|----------------------------------------|----------------------------------|\n| **Normal bis trocken**      | L'Occitane Hydraphase Intense          | Nivea Q10 Plus oder Balea Shea   |\n| **Sehr trocken/schuppig**   | La Roche-Posay Cicalfate+ oder Eucerin Urea | Weleda Calendula (Bio)          |\n| **Empfindliche/Hautkrankheiten** | La Roche-Posay oder Weleda        | Balea mit Panthenol             |\n| **Duftempfindlich**         | Weleda (parfümfrei)                    | Nivea Sensitiv (duftneutral)     |\n| **Luxus & Duftgenuss**     | L'Occitane Lavendel oder Mandelblüte  | –                                |\n\n---\n### **4. Praktische Tipps für die Auswahl**\n- **Teste erst kleine Mengen**: Bei empfindlicher Haut probiere z. B. erst ein **Mini-Produkt** (z. B. L'Occitane Travel-Size oder DM-Samples).\n- **Achte auf Inhaltsstoffe**:\n  - **Hyaluronsäure/Glycerin** → Feuchtigkeitsspendend.\n  - **Sheabutter/Wachs** → Intensive Pflege.\n  - **Panthenol/Zink** → Beruhigend bei Reizungen.\n- **Vermeide Alkohol & Duftstoffe** bei trockener Haut (schau auf die INCI-Liste).\n\n---\n### **5. Wo kaufen?**\n- **L'Occitane**: Parfümerien, Douglas, Online (z. B. [loccitane.de](https://www.loccitane.de))\n- **Drogerie-Marken (Balea, Nivea)**: DM, Rossmann\n- **Apotheken-Marken (La Roche-Posay, Eucerin)**: Apotheke, DM (bei Eucerin)\n\n---\n**SOURCES:**\n- **Tests & Bewertungen**:\n  - [ÖKO-TEST (2023) – Handcremes im Vergleich](https://www.oeko-test.de) (für Inhaltsstoff-Checks)\n  - [Stiftung Warentest (2022) – Pflege für die Hände](https://www.test.de) (Vergleich von L'Occitane vs. Drogerie-Marken)\n  - [Apotheken-Umschau – Hautpflege bei trockenen Händen](https://www.apotheken-umschau.de)\n- **Hersteller-Infos**:\n  - [L'Occitane Inhaltsstoffdatenbank](https://www.loccitane.de)\n  - [La Roche-Posay – medizinische Hautpflege](https://www.laroche-posay.de)\n  - [Weleda – Bio-Zertifizierung](https://www.weleda.de)\n- **Kundenbewertungen**:\n  - Amazon, Douglas, DM-Website (für Nutzerfeedback zu Textur & Wirkung)\n  - [Trustpilot – Bewertungen zu L'Occitane](https://www.trustpilot.de)",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L'Occitane",
+     "Balea",
+     "Nivea",
+     "La Roche-Posay",
+     "Weleda",
+     "Eucerin"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "absent": false,
+    "sources": [
+     "ÖKO-TEST (2023) – Handcremes im Vergleich",
+     "Stiftung Warentest (2022) – Pflege für die Hände",
+     "Apotheken-Umschau – Hautpflege bei trockenen Händen",
+     "L'Occitane Inhaltsstoffdatenbank",
+     "La Roche-Posay – medizinische Hautpflege",
+     "Weleda – Bio-Zertifizierung",
+     "Amazon",
+     "Douglas",
+     "DM-Website",
+     "Trustpilot – Bewertungen zu L'Occitane"
+    ],
+    "claims": [
+     {
+      "claim": "L'Occitane bietet eine Handcreme namens „Hydraphase Intense“ für trockene Haut an.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane bietet eine „Shea Butter Hand Cream“ an.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitane verwendet beziehungsweise bewirbt Inhaltsstoffe wie Sheabutter, Mandel und Lavendel.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitane-Handcremes kosten etwa 15–25 € für 50–100 ml.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitane bietet Handpflege mit Lavendel- oder Mandelduft beziehungsweise entsprechenden Produktlinien an.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitane verkauft seine Produkte in Parfümerien, bei Douglas und online.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": "La Roche-Posay"
+   },
+   "latency_answer": 14.18,
+   "latency_judge": 14.66
+  },
+  {
+   "market": "JP",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P1_reco",
+   "rep": 1,
+   "question": "crème pour les mainsを買いたいです。おすすめのブランドはどれですか？おすすめ順にトップ5のブランドを、各ブランド一文の説明付きでランキングしてください。",
+   "answer": "日本で人気のある手荒れ防止や保湿に優れた**手のクリーム**を、使いやすさや評判、価格バランスを考慮してトップ5にランキングしました。季節や肌質に合わせて選んでくださいね。\n\n---\n\n### **1位: Biologique Recherche - CR (Cicatriel Reafirming)**\n**特徴:** フランスの高級医療美容ブランド。高濃度の**ビタミンC**と**ヒアルロン酸**で、手首や手のシワ、乾燥肌に効果的。薬局やオンラインで販売され、一時的な手荒れから慢性的な乾燥肌まで対応。ただし価格は高め（約3,000〜5,000円）です。\n**おすすめユーザー:** 30代以上の女性や、乾燥肌・シワが気になる方。\n\n---\n\n### **2位: La Roche-Posay - Cicaplast Baume B5**\n**特徴:** フランスの医薬品メーカー。傷や日焼けによる手荒れに特化した**修復力の高いクリーム**。ニパリン（抗炎症成分）やビタミンB5が入っており、手術後のケアや重労働者にも使われています。薬局で手に入りやすく、約2,000円前後。\n**おすすめユーザー:** 手荒れがひどい方、外科手術後のケア、日焼けや化学物質で傷ついた手。\n\n---\n\n### **3位: Shiseido - Benecalms Hand Cream**\n**特徴:** 日本のメイクアップブランドShiseidoが手がける**高保湿クリーム**。オレンジオイルとヒアルロン酸で肌を柔らかくし、使い心地もスムーズ。価格は約1,500〜2,000円で、デパートやドラッグストアでよく見かけます。香りも優しく、日常的に使いやすいです。\n**おすすめユーザー:** 日常的に手荒れしがちな方、保湿力が欲しい方。\n\n---\n\n### **4位: Avene - XeraCalm AD Lipid-Replenishing Cream**\n**特徴:** フランスの敏感肌専門ブランド。アベンの特許技術**XeraCalm**が乾燥やかゆみを和らげ、リピードオイル（肌のバリアを補う成分）で長時間保湿。敏感肌やアトピー肌にも配慮された製品。約2,500円前後（ドラッグストアで販売）。\n**おすすめユーザー:** 敏感肌やアトピー肌の方、乾燥でかゆみが出る方。\n\n---\n### **5位: Nivea - Soft Hand Cream**\n**特徴:** 世界的に知られるドイツのメーカー。手のひらまでしっかりと保湿し、使い捨てのパック付きのタイプもあります。価格は約1,000円前後で、コンビニやスーパーでも手に入りやすい。香りは軽めで、日常的な手荒れ防止に最適。\n**おすすめユーザー:** 予算に余裕のない方、コンビニで手軽に購入したい方。\n\n---\n\n### **季節別のアドバイス**\n- **冬場:** Biologique RechercheやLa Roche-Posayを選び、夜に塗布して保湿力を高めましょう。\n- **夏場:** NiveaやShiseidoの軽いクリームを選び、油分が多いものは避けましょう。\n- **敏感肌:** Aveneを使って、刺激の少ない成分を選びましょう。\n\n---\n**SOURCES:** 日本のドラッグストア・デパートの公式サイト（ロッシュポエ、ビオレセール、資生堂、アヴェン、ニベア）、口コミサイト（Amazonレビュー、メディカルコスメティック専門サイト）、美容関連書籍（美肌の科学など）。",
+   "verdict": {
+    "brand_mentioned": false,
+    "brands_listed": [
+     "Biologique Recherche",
+     "La Roche-Posay",
+     "Shiseido",
+     "Avene",
+     "Nivea"
+    ],
+    "brand_rank": null,
+    "sentiment": "absent",
+    "sources": [
+     "日本のドラッグストア・デパートの公式サイト（ロッシュポエ、ビオレセール、資生堂、アヴェン、ニベア）",
+     "口コミサイト（Amazonレビュー、メディカルコスメティック専門サイト）",
+     "美容関連書籍（美肌の科学など）"
+    ],
+    "claims": [],
+    "top_competitor": "Shiseido"
+   },
+   "latency_answer": 9.71,
+   "latency_judge": 7.83
+  },
+  {
+   "market": "JP",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P2_opinion",
+   "rep": 1,
+   "question": "crème pour les mainsにおけるL'Occitaneというブランドをどう思いますか？強み、弱み、そしてどんな人におすすめか教えてください。",
+   "answer": "L'Occitane en Provenceのハンドクリームは、日本でも人気の高いブランドですね。その強みと特徴をお伝えします。\n\n### **強み（メリット）**\n1. **天然成分の使用**\n   - 主にプロヴァンス地方で採れる天然植物成分（ラベンダー、ローズ、オレンジ、カモミールなど）を多用しています。特にラベンダーの香りは、リラックス効果があり、肌に優しいと評判です。\n   - 低刺激性で、敏感肌の方にも向いていることが多いです。\n\n2. **質感と吸収性**\n   - クリームは軽やかなテクスチャーで、手にしっかりと潤いを与えながらも、余分な油分が残らないため、使い心地が良いです。\n   - 一度塗ると、すぐに吸収されて、手がベタつかないのが特徴です。\n\n3. **香りの豊かさ**\n   - フレグランスが豊かで、ラベンダーやローズなどの自然な香りは、ストレス解消やリラックスに効果的です。特にオフィスや家事で手が乾燥する方に人気があります。\n\n4. **価格帯のバランス**\n   - 高級感はあるものの、他の高級ブランドと比べると比較的手頃な価格帯（1,000円〜2,000円程度）で購入できます。大容量のボトルもあり、コスパが良いです。\n\n5. **ブランドの信頼性**\n   - フランスの地元産業を支える企業として知られており、エコロジーや地元農家との協業にも力を入れています。安定した品質が評価されています。\n\n---\n\n### **弱み（デメリット）**\n1. **香りが好きでない人には合わない**\n   - ラベンダーやフルーティーな香りが苦手な方には、あまり向かない可能性があります。無香料のオプションはありますが、選択肢は限られています。\n\n2. **高価なアイテムもある**\n   - 特別な限定版や大容量のボトルは高額になる場合があります。例えば、ラベンダーの大型ボトルは2,500円〜3,000円程度します。\n\n3. **保存期間**\n   - 天然成分を多用しているため、開封後は1年程度で効果が薄れることがあります。使い切るタイミングを計る必要があります。\n\n4. **配送や店舗での入手難**\n   - 日本のドラッグストアでは取り扱いが限られており、主にL'Occitaneの公式サイトやデパート、オンラインショップで購入する必要があります。\n\n---\n\n### **どんな人におすすめか？**\n1. **敏感肌や乾燥肌の方**\n   - 天然成分で刺激の少ないクリームは、肌荒れしやすい方に適しています。\n\n2. **香りを重視する方**\n   - ラベンダーやローズなどの自然な香りが好きな方にぴったりです。特にリラックス効果を求める方におすすめです。\n\n3. **日常的に手を洗う方（看護師、料理人、オフィスワーカーなど）**\n   - 手が乾燥しやすい職業の方にとって、潤いと吸収性の良さは大きなメリットです。\n\n4. **プレゼントやギフトとして**\n   - 高級感がありながらも手頃な価格帯のため、贈り物としても人気です。\n\n5. **エコロジーや地元産業を支持したい方**\n   - フランスのプロヴァンス地方の農家との協業や、天然成分の使用にこだわる方にとって、ブランドの価値観が合うかもしれません。\n\n---\n### **おすすめの商品（例）**\n- **L'Occitane en Provence ハンドクリーム（ラベンダー）**\n  - 定番で、香りが良く、肌に優しいです。\n- **L'Occitane en Provence ハンドクリーム（ローズ）**\n  - 女性向けの香りで、優しい花の香りが特徴です。\n- **L'Occitane en Provence ハンドクリーム（オレンジ）**\n  - フルーティーな香りで、爽やかな印象です。\n- **L'Occitane en Provence ハンドクリーム（無香料）**\n  - 香りが苦手な方にもおすすめです。\n\n---\n**購入先の例**：\n- 公式サイト（[L'Occitane Japan](https://www.loccitane.jp/))\n- デパート（伊勢丹、三越、高島屋など）\n- ドラッグストア（一部店舗で取り扱いあり）\n- Amazon、楽天市場などのオンラインショップ\n\nSOURCES: ブランド公式サイト、口コミレビュー（Amazon、楽天、フルーツフラワーなど）、美容関連の情報サイト（美人百科、Leminoなど）、ユーザーの評価集約サイト。",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L'Occitane en Provence",
+     "L'Occitane",
+     "L'Occitane Japan"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [
+     "ブランド公式サイト",
+     "口コミレビュー（Amazon、楽天、フルーツフラワーなど）",
+     "美容関連の情報サイト（美人百科、Leminoなど）",
+     "ユーザーの評価集約サイト"
+    ],
+    "claims": [
+     {
+      "claim": "ラベンダーのハンドクリームを定番商品として挙げている。",
+      "status": "consistent"
+     },
+     {
+      "claim": "ローズのハンドクリームを商品例として挙げている。",
+      "status": "consistent"
+     },
+     {
+      "claim": "オレンジのハンドクリームを商品例として挙げている。",
+      "status": "contradicted"
+     },
+     {
+      "claim": "無香料のハンドクリームを商品例として挙げている。",
+      "status": "contradicted"
+     },
+     {
+      "claim": "ハンドクリームの価格帯はおおむね1,000円〜2,000円程度としている。",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "ラベンダーの大型ボトルは2,500円〜3,000円程度としている。",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 11.24,
+   "latency_judge": 18.52
+  },
+  {
+   "market": "JP",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P3_products",
+   "rep": 1,
+   "question": "L'Occitaneのcrème pour les mainsのラインナップと製品にはどんなものがありますか？主な特徴とともに列挙してください。",
+   "answer": "L'Occitaneのハンドクリーム（手のクリーム）は、天然成分を活用した豊富なラインナップで知られています。主なシリーズや人気商品とその特徴を以下にまとめました。\n\n---\n\n### **1. クラシックシリーズ（Classic Line）**\n**代表的な商品：**\n- **ハンドクリーム（Hand Cream）**\n  - **特徴**：オリーブオイルとラベンダーの香りが特徴的な、日本でも定番のハンドクリーム。保湿力が高く、肌を柔らかくする効果があります。\n  - **成分**：オリーブオイル、ラベンダー、ビタミンE、パントテン酸（ビタミンB5）。\n  - **サイズ**：50ml、100ml、200mlなど。\n\n---\n\n### **2. シルクシリーズ（Silk Line）**\n**代表的な商品：**\n- **シルクハンドクリーム（Silk Hand Cream）**\n  - **特徴**：シルクのタンパク質を配合し、肌を滑らかにする効果を高める。手荒れや乾燥肌に効果的です。\n  - **成分**：シルク、オリーブオイル、アロエベラ、ビタミンE。\n  - **サイズ**：50ml、100ml。\n\n---\n\n### **3. リップシリーズ（Lip Line）**\n**代表的な商品：**\n- **リップクリーム（Lip Cream）**\n  - **特徴**：リップバームとしても使える保湿力の高いクリーム。リップベリーやラベンダーの香りがあり、肌を潤いを与えます。\n  - **成分**：リップベリー、オリーブオイル、ビタミンE。\n  - **サイズ**：5ml、10ml、20mlなど。\n\n---\n\n### **4. バニラシリーズ（Vanilla Line）**\n**代表的な商品：**\n- **バニラハンドクリーム（Vanilla Hand Cream）**\n  - **特徴**：バニラの香りが特徴的で、爽やかな香りが好まれます。保湿力が高く、手荒れ対策にも適しています。\n  - **成分**：バニラ、オリーブオイル、ビタミンE。\n  - **サイズ**：50ml、100ml。\n\n---\n\n### **5. ローズシリーズ（Rose Line）**\n**代表的な商品：**\n- **ローズハンドクリーム（Rose Hand Cream）**\n  - **特徴**：ローズオイルを配合し、肌を柔らかくする効果があります。女性に人気の香りです。\n  - **成分**：ローズオイル、オリーブオイル、ビタミンE。\n  - **サイズ**：50ml、100ml。\n\n---\n\n### **6. シトラスシリーズ（Citrus Line）**\n**代表的な商品：**\n- **レモンハンドクリーム（Lemon Hand Cream）**\n  - **特徴**：レモンの爽やかな香りで、手洗い後の肌を爽快に保ちます。保湿力もあります。\n  - **成分**：レモンオイル、オリーブオイル、ビタミンE。\n  - **サイズ**：50ml、100ml。\n\n---\n\n### **7. ハーブシリーズ（Herb Line）**\n**代表的な商品：**\n- **ラベンダーハンドクリーム（Lavender Hand Cream）**\n  - **特徴**：ラベンダーの香りでリラックス効果があり、保湿力も高いです。\n  - **成分**：ラベンダー、オリーブオイル、ビタミンE。\n  - **サイズ**：50ml、100ml。\n\n---\n\n### **8. スキンケアシリーズ（Skin Care Line）**\n**代表的な商品：**\n- **ハンドクリーム・リペア（Hand Cream Repair）**\n  - **特徴**：乾燥や手荒れがひどい方向けに、強力な保湿成分を配合したリペアクリームです。\n  - **成分**：シェアバター、オリーブオイル、ヒアルロン酸。\n  - **サイズ**：50ml、100ml。\n\n- **ハンドクリーム・インテンス（Hand Cream Intense）**\n  - **特徴**：強い保湿力と肌の修復効果を持つ、高濃度のクリームです。\n  - **成分**：シェアバター、オリーブオイル、ビタミンE。\n\n---\n\n### **9. バニラ・オレンジシリーズ（Vanilla Orange Line）**\n**代表的な商品：**\n- **バニラ・オレンジハンドクリーム（Vanilla Orange Hand Cream）**\n  - **特徴**：バニラとオレンジの香りが特徴的で、爽やかで甘い香りが好まれます。\n  - **成分**：バニラ、オレンジオイル、オリーブオイル。\n  - **サイズ**：50ml、100ml。\n\n---\n\n### **10. 季節限定やコラボ商品**\nL'Occitaneでは年に数回、季節限定のハンドクリームやコラボレーション商品を出しています。例えば：\n- **クリスマスシーズン**：バニラやシナモンの香りを使った特別なハンドクリーム。\n- **コラボ商品**：日本のブランドやアーティストとのコラボレーション商品もあります。\n\n---\n\n### **選び方のアドバイス**\n- **乾燥肌の方**：シェアバターやヒアルロン酸を配合した商品（リペアやインテンスシリーズ）がおすすめ。\n- **敏感肌の方**：ラベンダーやローズの配合で、刺激の少ないシリーズを選ぶと良いでしょう。\n- **香りが好きな方**：バニラ、ローズ、レモンなど、好みの香りを選んでみてください。\n\n---\n\n**SOURCES:**\nL'Occitane Japan公式ウェブサイト（https://www.loccitane.jp/）、L'Occitaneの製品パッケージ情報、化粧品成分データベース（JCGM、JDMA）、美容関連の専門誌やレビューサイト。",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L'Occitane",
+     "L'Occitane Japan"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [
+     "L'Occitane Japan公式ウェブサイト（https://www.loccitane.jp/）",
+     "L'Occitaneの製品パッケージ情報",
+     "化粧品成分データベース（JCGM、JDMA）",
+     "美容関連の専門誌やレビューサイト"
+    ],
+    "claims": [
+     {
+      "claim": "L'Occitaneにクラシックシリーズのハンドクリームがある",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitaneにシルクシリーズのハンドクリームがある",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitaneにローズシリーズのハンドクリームがある",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitaneにシトラスシリーズのレモンハンドクリームがある",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L'Occitaneにハーブシリーズのラベンダーハンドクリームがある",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitaneにバニラシリーズのハンドクリームがある",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 14.21,
+   "latency_judge": 10.98
+  },
+  {
+   "market": "JP",
+   "assistant": "Mistral",
+   "model": "ministral-8b-latest",
+   "probe": "P4_compare",
+   "rep": 1,
+   "question": "crème pour les mainsでL'Occitaneと競合ブランドのどちらを選ぶべきですか？理由と、参考にした情報源（サイト、レビュー、比較記事）を教えてください。",
+   "answer": "L'Occitaneと競合する手のクリームを選ぶ際は、あなたの**ニーズや好み**によって最適なブランドが変わります。以下で、それぞれの特徴や選ぶべきシチュエーションを詳しく解説します。\n\n---\n\n### **1. L'Occitaneの特徴（選ぶべき理由）**\n#### ✅ 長所\n- **天然成分にこだわった高品質感**\n  - オーガニックオイル（オリーブ、アーモンド、ラベンダーなど）を多用し、肌に優しいと評判です。\n  - **ラベンダーの香り**が特徴的で、リラックス効果があるとされています。\n  - **保湿力が高く、乾燥肌向け**に適しています（特に「Hand Cream with Shea Butter」や「Shea Butter Hand Cream」が人気）。\n\n- **日本でも手軽に入手可能**\n  - **L'Occitane en Provence**の公式店や**楽天、Amazon、ドラッグストア（マツモトキヨシ、ツルハドラッグなど）**で購入できます。\n  - 定期購入やセット割引もあり、経済的です。\n\n- **肌に優しい安全性**\n  - **パラベンフリー、アルコールフリー**の商品も多く、敏感肌の人にも向いています。\n  - **日本の厚生労働省基準**に準拠した安全性が確認されています。\n\n- **プレミアム感とブランド力**\n  - フランスの伝統的な製法を継承しているため、高級感があります。\n  - **ギフトとしても人気**で、贈り物に相応しいです。\n\n#### ❌ 短所\n- **価格がやや高め**\n  - 150mlの手のクリームで**2,500〜3,500円**前後するものがあります（割引時でも）。\n  - 安価な手のクリームに比べるとコストがかかります。\n\n- **香りが強い人には不向き**\n  - ラベンダーやオレンジの香りが強い商品もあり、好みが分かれます。\n\n---\n\n### **2. 主な競合ブランドとの比較**\n以下で、L'Occitaneと似たポジションのブランドを比較します。\n\n#### **A. Biologique Recherche（ビオレジェール）**\n- **特徴**：フランスの高級医療コスメブランド。\n  - **抗酸化成分（ビタミンC、アスタキサンチン）が配合**され、肌の老化防止に効果あり。\n  - **敏感肌やアトピー肌にも適した商品**があります（例：「Hyaluronic Acid Lotion」）。\n- **選ぶべきシチュエーション**：\n  - **30代以降の肌の老化防止**を重視する人。\n  - **医療コスメレベルの高品質**を求める人。\n- **価格**：L'Occitaneより高め（150mlで**5,000〜10,000円**）。\n- **入手先**：公式店、Amazon、高級ドラッグストア（マツモトキヨシの「ビオレジェールコーナー」）。\n\n#### **B. Avene（アヴェン）**\n- **特徴**：フランスの医療コスメブランド（水道水から精製した「Avene Thermal Spring Water」を使用）。\n  - **敏感肌・乾燥肌・アトピー肌向け**の商品が豊富。\n  - **保湿力が高く、肌のバリア機能を強化**する。\n- **選ぶべきシチュエーション**：\n  - **敏感肌やアレルギー肌**の人。\n  - **医師推奨のスキンケア**を求める人。\n- **価格**：L'Occitaneとほぼ同じ（150mlで**2,500〜4,000円**）。\n- **入手先**：ドラッグストア（マツモトキヨシ、ツルハドラッグ）、Amazon。\n\n#### **C. The Ordinary（ザ・オーディナリー）**\n- **特徴**：高性能な成分を**リーズナブルな価格**で提供するブランド。\n  - **ハイパーヒアルロン酸、スクワラン、ニアシンエミール**など、効果的な成分が配合されています。\n  - **香料フリー、アルコールフリー**の商品も多く、敏感肌にも向いています。\n- **選ぶべきシチュエーション**：\n  - **予算に余裕がないが、効果を求める人**。\n  - **単品成分を試したい人**（例：「Hyaluronic Acid 2% + B5」）。\n- **価格**：L'Occitaneの**1/3〜1/2**の価格（150mlで**1,000〜2,000円**）。\n- **入手先**：デパート（三越、伊勢丹）、Amazon、公式サイト。\n\n#### **D. SK-II（エスケイツー）**\n- **特徴**：高級ブランドで、日本発の「ピタカ（Pitera）」という成分が有名。\n  - **肌の新陳代謝を促し、美白効果**があるとされています。\n  - **香りが控えめ**で、洗練されたデザイン。\n- **選ぶべきシチュエーション**：\n  - **美白や肌の質感向上**を求める人。\n  - **プレミアムギフト**として贈りたい人。\n- **価格**：L'Occitaneより高め（150mlで**3,000〜6,000円**）。\n- **入手先**：高級デパート（三越、伊勢丹）、SK-II公式店。\n\n#### **E. CeraVe（セラベ）**\n- **特徴**：アメリカの医療コスメブランドで、**セラミド配合**が特徴。\n  - **乾燥肌・アトピー肌・敏感肌**に非常に適しています。\n  - **価格が安く、効果が実証済み**です。\n- **選ぶべきシチュエーション**：\n  - **予算を抑えたいが、効果の高い手のクリーム**を求める人。\n  - **セラミドで肌バリアを強化**したい人。\n- **価格**：L'Occitaneの**半額以下**（150mlで**1,500〜2,500円**）。\n- **入手先**：ドラッグストア（マツモトキヨシ、ツルハドラッグ）、Amazon。\n\n---\n\n### **3. どちらを選ぶべきか？具体的な選択基準**\n| **選択基準**               | **L'Occitaneを選ぶべき** | **競合ブランドを選ぶべき** |\n|----------------------------|--------------------------|---------------------------|\n| **予算**                  | 3,000円以下ならOK      | **1,500〜2,500円**で効果を求める場合（CeraVe、The Ordinary） |\n| **肌のタイプ**            | 乾燥肌、一般肌          | **敏感肌・アトピー肌**（Avene、CeraVe）、**老化防止**（Biologique Recherche） |\n| **香りの好み**            | 香りが好きな人          | **無香料・無刺激**が重要（The Ordinary、CeraVe） |\n| **プレミアム感**          | 高級感を求める人        | **コスパ重視**（The Ordinary）、**医療コスメ**（Biologique Recherche） |\n| **入手しやすさ**          | ドラッグストアでOK      | **高級デパート**が必要（SK-II、Biologique Recherche） |\n\n---\n\n### **4. 具体的な商品のお",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L'Occitane",
+     "L'Occitane en Provence",
+     "Biologique Recherche",
+     "Avene",
+     "The Ordinary",
+     "SK-II",
+     "CeraVe"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "absent": null,
+    "sources": [],
+    "claims": [
+     {
+      "claim": "L'Occitaneのシアバター配合ハンドクリーム（Hand Cream with Shea Butter / Shea Butter Hand Cream）が人気商品として挙げられている。",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitaneには150mlのハンドクリームがある。",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitaneの150mlハンドクリームの価格は2,500〜3,500円前後である。",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L'Occitaneはフランスのブランドである。",
+      "status": "consistent"
+     },
+     {
+      "claim": "L'Occitaneは公式店、楽天、Amazon、ドラッグストアなどで購入できる。",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L'Occitaneにはパラベンフリー・アルコールフリーの商品が多い。",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": "CeraVe"
+   },
+   "latency_answer": 18.88,
+   "latency_judge": 17.72
+  },
+  {
+   "market": "FR",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P1_reco",
+   "rep": 1,
+   "question": "Je veux acheter crème pour les mains. Quelles marques me recommandes-tu ? Donne un classement des 5 meilleures marques, de la meilleure à la moins bonne, avec une phrase par marque.",
+   "answer": "1. **Neutrogena** — Excellente pour les mains très sèches ou abîmées grâce à sa formule concentrée, efficace et généralement abordable.  \n2. **CeraVe** — Un très bon choix quotidien, avec des céramides et de l’acide hyaluronique pour réparer et renforcer la barrière cutanée.  \n3. **Eucerin** — Particulièrement adaptée aux peaux sèches, rugueuses ou sensibles, avec des formules ciblées et bien tolérées.  \n4. **La Roche-Posay** — Recommandée pour les mains sensibles ou irritées, notamment grâce à des textures respectueuses et souvent sans parfum.  \n5. **Nuxe** — Agréable à utiliser et bien parfumée, mais généralement moins adaptée que les précédentes aux mains très sèches ou fragilisées.  \n\nSOURCES: sites officiels de Neutrogena, CeraVe, Eucerin, La Roche-Posay et Nuxe ; recommandations dermatologiques générales sur les crèmes hydratantes et les ingrédients réparateurs.",
+   "verdict": {
+    "brand_mentioned": false,
+    "brands_listed": [
+     "Neutrogena",
+     "CeraVe",
+     "Eucerin",
+     "La Roche-Posay",
+     "Nuxe"
+    ],
+    "brand_rank": null,
+    "sentiment": "absent",
+    "sources": [
+     "sites officiels de Neutrogena, CeraVe, Eucerin, La Roche-Posay et Nuxe",
+     "recommandations dermatologiques générales sur les crèmes hydratantes et les ingrédients réparateurs"
+    ],
+    "claims": [],
+    "top_competitor": "Neutrogena"
+   },
+   "latency_answer": 4.17,
+   "latency_judge": 4.46
+  },
+  {
+   "market": "FR",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P2_opinion",
+   "rep": 1,
+   "question": "Que penses-tu de la marque L'Occitane pour crème pour les mains ? Points forts, points faibles, et à qui tu la recommanderais.",
+   "answer": "L’Occitane est globalement une **bonne marque pour les crèmes pour les mains**, surtout si tu recherches une texture agréable, un parfum travaillé et un produit facile à offrir. La gamme la plus connue, **Karité**, est généralement la plus nourrissante.\n\n### Points forts\n\n- **Bonne efficacité sur les mains sèches** : les crèmes au karité, notamment celles fortement concentrées, apportent une protection confortable et durable.\n- **Textures variées** : certaines sont riches et réparatrices, d’autres plus légères et rapidement absorbées.\n- **Formules agréables à utiliser** : fini souvent soyeux, sans sensation trop collante pour les versions légères.\n- **Parfums et choix de gammes** : karité, amande, verveine, fleurs de cerisier, lavande, etc. La marque propose aussi des formats voyage pratiques.\n- **Présentation soignée** : tubes emblématiques, coffrets et petits formats adaptés aux cadeaux.\n- **Bonne disponibilité** : boutiques, site internet et nombreux revendeurs.\n\n### Points faibles\n\n- **Prix assez élevé** : le rapport quantité/prix est moins intéressant que celui de marques de pharmacie ou de grande surface.\n- **Parfums parfois très présents** : cela peut déplaire ou irriter les peaux sensibles, surtout en cas de dermatite ou d’eczéma.\n- **Toutes les références ne sont pas très réparatrices** : certaines crèmes parfumées sont surtout agréables et hydratantes, mais pas suffisantes pour des mains très abîmées.\n- **Risque de déception avec les textures légères** : elles pénètrent vite, mais protègent moins longtemps qu’une crème riche ou qu’un baume.\n- **Emballages parfois plus luxueux que fonctionnels** : les tubes métalliques sont élégants, mais peuvent se froisser ou devenir difficiles à utiliser en fin de tube.\n\n### À qui je la recommanderais ?\n\nJe la recommanderais particulièrement :\n\n- aux personnes ayant les **mains normales à sèches** ;\n- à celles qui apprécient les **crèmes parfumées** et l’expérience sensorielle ;\n- pour un **cadeau** ou un petit plaisir quotidien ;\n- à celles qui veulent une crème à garder dans un sac ou sur un bureau.\n\nPour des mains **très sèches, gercées ou abîmées**, je choisirais plutôt une référence riche au karité, à appliquer régulièrement, notamment après le lavage et le soir. Si la peau est sujette à l’eczéma, aux rougeurs ou aux allergies, mieux vaut privilégier une formule **sans parfum**, souvent disponible chez les marques dermatologiques, et tester le produit sur une petite zone.\n\n**En résumé :** L’Occitane est une très bonne option si tu privilégies le plaisir d’utilisation et une hydratation efficace au quotidien. En revanche, ce n’est pas forcément le meilleur choix si tu cherches le prix le plus bas, une formule minimaliste ou un soin médical pour une peau très réactive.\n\nSOURCES: fiches produits et listes d’ingrédients officielles de L’Occitane en Provence ; recommandations générales de dermatologie sur les crèmes pour les mains, les parfums et les peaux sensibles.",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "L’Occitane en Provence"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [
+     "fiches produits et listes d’ingrédients officielles de L’Occitane en Provence",
+     "recommandations générales de dermatologie sur les crèmes pour les mains, les parfums et les peaux sensibles"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane propose des crèmes pour les mains dans les gammes Karité, Amande, Verveine, Fleurs de Cerisier et Lavande.",
+      "status": "consistent"
+     },
+     {
+      "claim": "La gamme Karité est présentée comme la gamme la plus connue et comme particulièrement nourrissante.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane propose des formats voyage pour ses crèmes pour les mains.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane vend ses produits en boutiques, sur son site internet et auprès de revendeurs.",
+      "status": "consistent"
+     },
+     {
+      "claim": "Les crèmes pour les mains de L’Occitane ont un prix assez élevé par rapport aux marques de pharmacie ou de grande surface.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane utilise des tubes métalliques pour ses crèmes pour les mains.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 8.71,
+   "latency_judge": 10.87
+  },
+  {
+   "market": "FR",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P3_products",
+   "rep": 1,
+   "question": "Quelles sont les gammes et produits de L'Occitane en crème pour les mains ? Liste-les avec leurs caractéristiques principales.",
+   "answer": "Voici les principales **gammes de soins pour les mains de L’Occitane en Provence**, avec leurs caractéristiques. L’assortiment et les éditions parfumées peuvent varier selon la saison et les boutiques.\n\n## Gamme Karité\n\n| Produit | Caractéristiques principales |\n|---|---|\n| **Crème Mains Karité** | Produit emblématique de la marque, généralement formulé avec **20 % de beurre de karité**. Nourrit, protège et aide à réparer les mains sèches. Texture riche mais rapidement absorbée. Existe notamment en formats 30 ml et 150 ml. |\n| **Baume Mains Karité / Karité Ultra-Riche** | Formule plus riche, destinée aux mains très sèches, rugueuses ou abîmées. À utiliser en soin quotidien ou en masque réparateur le soir. |\n| **Crème Mains Karité & Lavande** | Base nourrissante au karité et parfum aromatique de lavande. Convient aux personnes recherchant un soin riche avec une senteur provençale. |\n| **Crème Mains Karité & Verveine** | Association du karité et d’une senteur fraîche et citronnée de verveine. Nourrissante, avec une sensation plus fraîche que la crème Karité classique. |\n| **Crème Mains Karité & Rose** | Soin nourrissant parfumé d’une senteur florale de rose. Souvent proposée en petit format ou en édition saisonnière. |\n| **Crème Mains Karité & Fleurs de Cerisier** | Texture nourrissante, parfum floral et délicat inspiré de la floraison des cerisiers. |\n| **Crème Mains Karité parfumée** | L’Occitane décline régulièrement sa base au karité en éditions limitées : parfum de Noël, agrumes, fleurs ou autres collections saisonnières. |\n\n## Gamme Amande\n\n| Produit | Caractéristiques principales |\n|---|---|\n| **Crème Mains Amande** | Soin adoucissant et nourrissant enrichi en ingrédients issus de l’amande. Parfum doux, légèrement gourmand et lacté. Texture généralement plus légère que le baume Karité. |\n| **Crème Mains Amande Délicieuse** | Variante à l’univers olfactif plus gourmand et enveloppant. Destinée à laisser les mains souples et délicatement parfumées. |\n\n## Gamme Verveine\n\n| Produit | Caractéristiques principales |\n|---|---|\n| **Crème Mains Verveine** | Soin hydratant et adoucissant au parfum frais, citronné et tonique de verveine. Sensation non grasse et adaptée à une utilisation fréquente. |\n| **Crème Mains Verveine des Jardins ou éditions parfumées** | Déclinaisons saisonnières ou liées à la collection Verveine, avec une fraîcheur citronnée plus ou moins prononcée. |\n\n## Gamme Fleurs de Cerisier\n\n| Produit | Caractéristiques principales |\n|---|---|\n| **Crème Mains Fleurs de Cerisier** | Crème légère à nourrissante, au parfum floral, frais et légèrement fruité. Elle aide à maintenir la peau douce et souple. |\n| **Crème Mains Karité Fleurs de Cerisier** | Variante davantage axée sur la nutrition grâce au beurre de karité, avec le parfum floral de la gamme. |\n\n## Gammes parfumées\n\n| Produit | Caractéristiques principales |\n|---|---|\n| **Crème Mains Néroli & Orchidée** | Soin parfumé à l’accord floral et lumineux du néroli et de l’orchidée. Texture douce, destinée à hydrater et parfumer légèrement les mains. |\n| **Crème Mains Osmanthus** | Parfum floral-fruité, souvent décrit comme doux et légèrement abricoté. Soin adoucissant pour un usage quotidien. |\n| **Crème Mains Herbae L’Eau** | Parfum végétal, frais et floral, inspiré d’un univers botanique. Texture confortable et non collante. |\n| **Crème Mains Eau des Baux** | Déclinaison masculine et boisée, avec des notes de cyprès et d’encens. Soin parfumé plutôt qu’un traitement très riche. |\n| **Crème Mains Cédrat** | Senteur fraîche, zestée et hespéridée. Convient aux amateurs de parfums toniques et légers. |\n\n## Gamme Aqua Réotier\n\n| Produit | Caractéristiques principales |\n|---|---|\n| **Crème Mains Aqua Réotier** | Soin orienté hydratation, à la texture fraîche et légère. Inspiré de l’eau riche en calcium de Réotier, il est conçu pour laisser les mains souples sans film gras. |\n\n## Comment choisir ?\n\n- **Mains très sèches ou abîmées :** Crème Mains Karité ou Baume Mains Karité Ultra-Riche.  \n- **Hydratation légère et application fréquente :** Verveine ou Aqua Réotier.  \n- **Soin parfumé floral :** Fleurs de Cerisier, Néroli & Orchidée ou Osmanthus.  \n- **Parfum gourmand :** Amande.  \n- **Parfum frais et citronné :** Verveine ou Cédrat.  \n- **Petit cadeau ou usage nomade :** formats 30 ml, souvent disponibles en coffrets ou en collections saisonnières.\n\nLes appellations exactes, les pourcentages de beurre de karité et les éditions limitées peuvent évoluer ; il est donc préférable de vérifier la fiche produit française au moment de l’achat.\n\nSOURCES: site officiel L’Occitane en Provence France, fiches produits et listes INCI officielles, catalogues et coffrets saisonniers de la marque.",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane en Provence",
+     "L’Occitane"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "sources": [
+     "site officiel L’Occitane en Provence France",
+     "fiches produits et listes INCI officielles",
+     "catalogues et coffrets saisonniers de la marque"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane propose une gamme de crèmes mains Karité.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane propose une gamme de crèmes mains Amande.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane propose une crème mains Karité & Lavande.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane propose une crème mains Osmanthus.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane propose une gamme de crèmes mains Aqua Réotier.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "Les crèmes mains de L’Occitane existent notamment en formats 30 ml et 150 ml.",
+      "status": "consistent"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 27.77,
+   "latency_judge": 15.54
+  },
+  {
+   "market": "FR",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P4_compare",
+   "rep": 1,
+   "question": "Entre L'Occitane et ses concurrents en crème pour les mains, lequel choisir et pourquoi ? Précise sur quelles sources (sites, tests, avis) tu t'appuies.",
+   "answer": "### Réponse courte\n\n- **Pour une crème agréable, sensorielle et efficace au quotidien : L’Occitane Karité 20 %**. Elle hydrate bien et pénètre relativement vite, mais elle est chère et parfumée.\n- **Pour des mains très sèches, irritées ou abîmées : La Roche-Posay Cicaplast Mains** ou **CeraVe Crème réparatrice**. Elles sont généralement plus pertinentes qu’une crème parfumée.\n- **Pour le meilleur rapport efficacité/prix : Neutrogena Formule Norvégienne sans parfum**.\n- **Pour une sécheresse avec rugosités ou desquamation : Eucerin UreaRepair PLUS 5 % Urée**.\n\n## Comparatif\n\n| Produit | Points forts | Limites | Pour qui ? |\n|---|---|---|---|\n| **L’Occitane Karité 20 %** | Beurre de karité, texture confortable, fini assez élégant, parfum et expérience sensorielle réussis | Prix élevé ; parfum et allergènes parfumants potentiellement irritants ; pas forcément le meilleur choix en cas d’eczéma | Mains sèches sans irritation particulière, si le plaisir d’utilisation compte |\n| **La Roche-Posay Cicaplast Mains** | Formule réparatrice, glycérine, niacinamide et agents protecteurs ; bonne option après lavages répétés | Plus “soin” que sensorielle ; peut sembler un peu filmogène | Mains très sèches, irritées ou fragilisées |\n| **CeraVe Crème réparatrice** | Céramides, glycérine et acide hyaluronique ; sans parfum ; bon soutien de la barrière cutanée | Texture plus riche, moins luxueuse ; peut laisser un léger film | Peau sensible, sécheresse chronique, recherche d’une formule sans parfum |\n| **Neutrogena Formule Norvégienne sans parfum** | Très concentrée, beaucoup de glycérine, efficace sur les gerçures ; souvent économique car une petite quantité suffit | Texture épaisse et parfois collante | Mains très sèches, travail manuel, froid, lavage fréquent |\n| **Eucerin UreaRepair PLUS 5 % Urée** | L’urée améliore l’hydratation et la sensation de rugosité ; bonne option pour peau rêche | Peut picoter sur des fissures ouvertes ; certaines versions sont plus riches | Mains rugueuses, squameuses ou très déshydratées |\n| **Rituals / autres crèmes parfumées** | Parfum, plaisir et texture agréables | Souvent moins intéressantes pour la réparation de la barrière cutanée ; parfum parfois irritant | Usage plaisir, si la peau tolère bien les parfums |\n\n## L’Occitane : vaut-elle vraiment son prix ?\n\n**Oui, si vous achetez aussi une expérience** : parfum, texture, packaging et plaisir d’application. La crème au karité contient notamment **20 % de beurre de karité**, un ingrédient émollient et protecteur, ainsi que des agents hydratants.\n\nEn revanche, sur le seul critère de la réparation cutanée, **elle n’est pas clairement supérieure** à CeraVe, Neutrogena ou La Roche-Posay. Ces marques proposent des formules souvent :\n\n- moins parfumées ou sans parfum ;\n- plus riches en agents humectants et occlusifs ;\n- plus adaptées aux mains soumises aux lavages répétés ;\n- moins coûteuses à quantité équivalente.\n\nLa crème L’Occitane contient aussi du parfum et des allergènes parfumants comme le **limonene**, le **linalool** ou le **geraniol** selon la référence et la version. Cela ne pose pas problème à tout le monde, mais je l’éviterais sur des mains eczémateuses, fissurées ou très réactives.\n\n## Mon choix selon le besoin\n\n### 1. Mains simplement sèches\n\n**L’Occitane Karité 20 %** si vous aimez le parfum et la texture.  \nSinon, **CeraVe** offre probablement un meilleur rapport formulation/prix.\n\n### 2. Mains très sèches ou gercées\n\n**Neutrogena sans parfum** : très efficace en couche fine, notamment le soir.  \nPour une texture moins collante, **La Roche-Posay Cicaplast Mains** est une bonne alternative.\n\n### 3. Mains sensibles ou sujettes à l’eczéma\n\nJe privilégierais :\n\n1. **CeraVe sans parfum** ;\n2. **La Roche-Posay Cicaplast Mains** ;\n3. **Neutrogena sans parfum**.\n\nLe plus important est d’éviter les parfums si vous remarquez des rougeurs ou des picotements. Pour les fissures importantes, appliquez une crème épaisse le soir et, si possible, portez des gants en coton pendant la nuit.\n\n### 4. Mains rugueuses et qui pèlent\n\n**Eucerin UreaRepair 5 %** est particulièrement intéressante grâce à l’urée. Évitez toutefois l’urée sur des crevasses ouvertes si elle brûle.\n\n### 5. Utilisation au travail ou après chaque lavage\n\nChoisissez une formule qui pénètre vite et gardez-la près du lavabo. **Cicaplast Mains**, **CeraVe** ou **Neutrogena sans parfum** sont plus rationnelles que L’Occitane dans ce contexte.\n\n## À propos des tests et des avis\n\nIl n’existe pas, à ma connaissance, de test indépendant qui établirait un classement universel de ces crèmes : l’efficacité dépend beaucoup du degré de sécheresse, de la fréquence de lavage et de la tolérance au parfum.\n\nJe me suis appuyé sur :\n\n- les **listes INCI et promesses des fabricants**, pour comparer les ingrédients : beurre de karité chez L’Occitane, glycérine chez Neutrogena, céramides chez CeraVe, urée chez Eucerin, ingrédients réparateurs chez La Roche-Posay ;\n- les principes dermatologiques concernant les **humectants** comme la glycérine et l’urée, les **émollients** comme le beurre de karité et les **agents occlusifs** ;\n- les recommandations générales de l’**American Academy of Dermatology** et de la **National Eczema Association**, qui privilégient les crèmes ou pommades sans parfum pour les peaux sèches et sensibles ;\n- les avis consommateurs disponibles sur les sites des marques et de distributeurs, en les considérant comme des indications de texture, de parfum et de tolérance, mais **pas comme une preuve clinique** ;\n- les informations de la **Commission européenne CosIng** sur les fonctions des ingrédients cosmétiques.\n\n### Verdict\n\n**Pour le meilleur produit “plaisir” : L’Occitane.**  \n**Pour le meilleur choix pratique et dermatologique : CeraVe ou La Roche-Posay.**  \n**Pour l’efficacité et le prix : Neutrogena sans parfum.**\n\nSOURCES: sites officiels L’Occitane, La Roche-Posay, CeraVe, Neutrogena et Eucerin ; Commission européenne CosIng ; American Academy of Dermatology ; National Eczema Association ; avis consommateurs de distributeurs et sites de marques.",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "La Roche-Posay",
+     "CeraVe",
+     "Neutrogena",
+     "Eucerin",
+     "Rituals"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "sources": [
+     "sites officiels L’Occitane, La Roche-Posay, CeraVe, Neutrogena et Eucerin",
+     "Commission européenne CosIng",
+     "American Academy of Dermatology",
+     "National Eczema Association",
+     "avis consommateurs de distributeurs et sites de marques"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane propose une gamme ou crème pour les mains au Karité.",
+      "status": "consistent"
+     },
+     {
+      "claim": "La crème pour les mains L’Occitane Karité contient 20 % de beurre de karité.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "La crème L’Occitane contient du parfum et des allergènes parfumants comme le limonene, le linalool ou le geraniol.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "La crème L’Occitane est chère ou coûte plus cher que plusieurs alternatives.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane n’est pas clairement supérieure à CeraVe, Neutrogena ou La Roche-Posay pour la réparation cutanée.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": "Neutrogena"
+   },
+   "latency_answer": 18.33,
+   "latency_judge": 17.76
+  },
+  {
+   "market": "DE",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P1_reco",
+   "rep": 1,
+   "question": "Ich möchte crème pour les mains kaufen. Welche Marken empfiehlst du? Gib eine Rangliste der 5 besten Marken, von der besten zur schwächsten, mit je einem Satz pro Marke.",
+   "answer": "1. **Eucerin** – Besonders empfehlenswert bei sehr trockenen oder rissigen Händen, da die UreaRepair-Handcremes intensiv pflegen und meist gut verträglich sind.  \n2. **La Roche-Posay** – Die Cicaplast-Handcreme ist eine sehr gute Wahl für empfindliche, strapazierte Hände und zieht vergleichsweise schnell ein.  \n3. **Neutrogena** – Die konzentrierte Handcreme bietet viel Pflege für wenig Geld, kann sich aber etwas reichhaltiger oder klebriger anfühlen.  \n4. **L’Occitane** – Die Shea-Handcremes überzeugen mit angenehmer Textur und Duft, sind im Verhältnis zur Pflegewirkung jedoch recht teuer.  \n5. **Weleda** – Eine gute Naturkosmetik-Option mit angenehmen Inhaltsstoffen, deren Duft und ätherische Öle bei sehr empfindlicher Haut allerdings nicht ideal sein müssen.  \n\nSOURCES: Herstellerinformationen von Eucerin, La Roche-Posay, Neutrogena, L’Occitane und Weleda; Verbraucher- und Apothekenproduktinformationen.",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "Eucerin",
+     "La Roche-Posay",
+     "Neutrogena",
+     "L’Occitane",
+     "Weleda"
+    ],
+    "brand_rank": 4,
+    "sentiment": "neutral",
+    "absent": null,
+    "sources": [
+     "Herstellerinformationen von Eucerin, La Roche-Posay, Neutrogena, L’Occitane und Weleda",
+     "Verbraucher- und Apothekenproduktinformationen"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane bietet Shea-Handcremes an.",
+      "status": "consistent"
+     },
+     {
+      "claim": "Die Shea-Handcremes haben eine angenehme Textur und einen angenehmen Duft.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "Die Shea-Handcremes sind im Verhältnis zur Pflegewirkung recht teuer.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": "Neutrogena"
+   },
+   "latency_answer": 5.3,
+   "latency_judge": 7.9
+  },
+  {
+   "market": "DE",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P2_opinion",
+   "rep": 1,
+   "question": "Was hältst du von der Marke L'Occitane bei crème pour les mains? Stärken, Schwächen, und wem du sie empfehlen würdest.",
+   "answer": "L’Occitane ist bei Handcremes insgesamt eine **hochwertige, angenehme, aber eher teure Marke**. Besonders bekannt ist die **Karité-Handcreme** mit Sheabutter.\n\n### Stärken\n\n- **Gute Pflegewirkung:** Viele Varianten enthalten einen hohen Anteil an Sheabutter und machen trockene, raue Hände spürbar geschmeidiger.\n- **Angenehme Texturen:** Je nach Produkt gibt es reichhaltige Cremes für sehr trockene Hände oder leichtere Formulierungen für zwischendurch.\n- **Schnelles Komfortgefühl:** Die Cremes ziehen meist relativ gut ein, hinterlassen aber bei den reichhaltigeren Sorten einen schützenden Film.\n- **Schöne Düfte und Verpackung:** Düfte wie Shea, Mandel, Verbene oder Kirsche sind ein wichtiger Teil des Markenerlebnisses. Die Produkte eignen sich auch gut als kleines Geschenk.\n- **Große Auswahl:** Von sehr reichhaltig bis leicht und parfümiert ist einiges dabei.\n\n### Schwächen\n\n- **Preis-Leistungs-Verhältnis:** Die Cremes sind deutlich teurer als gute Produkte aus Drogerie oder Apotheke. Die Pflegewirkung ist nicht immer proportional zum Preis.\n- **Viele Düfte enthalten Parfum:** Für empfindliche, zu Rötungen neigende oder gereizte Haut können Duftstoffe problematisch sein.\n- **Nicht jede Variante ist gleich reichhaltig:** Manche dekorativ oder fruchtig bedufteten Handcremes pflegen eher leicht und sind bei stark trockenen Händen zu wenig.\n- **Teilweise etwas fettiges Finish:** Vor allem die reichhaltige Karité-Version kann nach dem Auftragen einen Film hinterlassen – angenehm als Schutz, aber nicht immer praktisch beim Tippen oder Arbeiten.\n- **Nachhaltigkeits- und Verpackungsaspekte:** Die Aluminiumtuben wirken hochwertig, sind aber nicht für alle bequem in der Anwendung; außerdem bezahlt man teilweise stark für Marke, Duft und Präsentation.\n\n### Wem ich sie empfehlen würde\n\nIch würde L’Occitane empfehlen, wenn du:\n\n- trockene Hände hast und eine **reichhaltige, luxuriös wirkende Pflege** suchst,\n- Wert auf **Düfte und ein schönes Anwendungserlebnis** legst,\n- eine Handcreme als **Geschenk** kaufen möchtest,\n- bereit bist, für Textur, Duft und Markenauftritt mehr zu bezahlen.\n\nBesonders sinnvoll ist die **Karité-Handcreme** für trockene bis sehr trockene Hände. Für normale Hände oder zur Arbeit im Büro können leichtere Varianten angenehmer sein.\n\nWeniger empfehlen würde ich L’Occitane, wenn du:\n\n- sehr empfindliche Haut oder Duftstoffunverträglichkeiten hast,\n- eine **parfumfreie** Handcreme suchst,\n- primär möglichst viel Pflege für wenig Geld möchtest,\n- eine Creme brauchst, die komplett rückstandsfrei und sofort einzieht.\n\n**Mein Fazit:** L’Occitane macht gute Handcremes, aber sie sind eher ein **Pflege- und Dufterlebnis im Premiumsegment** als ein unschlagbares Preis-Leistungs-Produkt. Für stark trockene Hände ist die klassische Karité-Variante überzeugend; bei empfindlicher Haut würde ich die Inhaltsstoffliste genau prüfen und eher eine parfümfreie Alternative wählen.\n\nSOURCES: L’Occitane Produktseiten und Inhaltsstoffangaben; Verbraucherzentrale-Informationen zu Duftstoffen in Kosmetik; Stiftung Warentest und ÖKO-TEST zu Handcremes und Kosmetik-Inhaltsstoffen",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "absent": false,
+    "sources": [
+     "L’Occitane Produktseiten und Inhaltsstoffangaben",
+     "Verbraucherzentrale-Informationen zu Duftstoffen in Kosmetik",
+     "Stiftung Warentest",
+     "ÖKO-TEST"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane ist besonders für die Karité-Handcreme mit Sheabutter bekannt.",
+      "status": "consistent"
+     },
+     {
+      "claim": "Zu den genannten Handcreme-Varianten gehören Shea/Karité, Mandel/Amande, Verbene und Kirsche/Fleurs de Cerisier.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane bietet reichhaltige und leichtere Handcreme-Varianten an.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "Die Karité-Handcreme hinterlässt einen schützenden Film und ist für trockene bis sehr trockene Hände geeignet.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane-Handcremes sind deutlich teurer als gute Produkte aus Drogerie oder Apotheke.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane verwendet Aluminiumtuben für die Handcremes.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 11.49,
+   "latency_judge": 10.3
+  },
+  {
+   "market": "DE",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P3_products",
+   "rep": 1,
+   "question": "Welche Produktlinien und Produkte hat L'Occitane im Bereich crème pour les mains? Liste sie mit ihren wichtigsten Merkmalen auf.",
+   "answer": "L’Occitane führt Handcremes vor allem als Teil seiner Duft- und Pflegekollektionen. Das Sortiment kann je nach Land, Saison und Verfügbarkeit variieren. Die wichtigsten Produktlinien sind:\n\n| Produktlinie / Produkte | Wichtigste Merkmale |\n|---|---|\n| **Karité / Shea Butter** | |\n| **Shea Butter Hand Cream** | Klassiker mit hohem Anteil an Sheabutter – typischerweise 20 %. Reichhaltig, schützend und besonders für trockene oder raue Hände geeignet. In 30- und 150-ml-Größen erhältlich. |\n| **Shea Butter Light Hand Cream** | Leichtere, schneller einziehende Variante mit geringerem Sheabutter-Anteil. Für normale bis trockene Hände und häufiges Nachcremen geeignet. |\n| **Shea Butter Hand Cream Lavender** | Reichhaltige Sheabutter-Pflege mit aromatischem Lavendelduft. |\n| **Shea Butter Hand Cream Rose** | Pflegende Sheabutter-Handcreme mit klassischem Rosenduft. |\n| **Mandel / Amande** | |\n| **Almond Delicious Hands / Amande Crème Mains** | Mit Mandelmilch und Mandelöl. Macht die Haut geschmeidig, pflegt trockene Hände und besitzt einen warmen, leicht süßlichen Mandelduft. |\n| **Verbene / Verveine** | |\n| **Verbena Hand Cream** | Leichte Handpflege mit frischem, zitronigem Eisenkrautduft. Zieht relativ schnell ein und eignet sich gut für die tägliche Anwendung. |\n| **Verbena Cooling Hand Cream Gel** | Gelartige, erfrischende Textur mit kühlendem Hautgefühl. Besonders angenehm bei warmem Wetter oder unterwegs. |\n| **Zitrus-Verbene / Citrus Verbena Hand Cream** | Frische Kombination aus Eisenkraut- und Zitrusnoten; leichte Pflege mit spritzigem Duft. Häufig saisonal oder als limitierte Variante erhältlich. |\n| **Kirschblüte / Cherry Blossom** | |\n| **Cherry Blossom Hand Cream** | Leichte, glättende Handcreme mit zartem Kirschblütenduft. Eignet sich vor allem für normale bis leicht trockene Hände. |\n| **Rose** | |\n| **Rose Hand Cream** | Handcreme mit femininem Rosenduft und leichter bis mittlerer Pflegewirkung. Teilweise als saisonale oder limitierte Edition erhältlich. |\n| **Lavendel / Lavender** | |\n| **Lavender Hand Cream** | Pflegende Handcreme mit charakteristischem, beruhigend-aromatischem Lavendelduft. |\n| **Osmanthus** | |\n| **Osmanthus Hand Cream** | Leichte bis mittlere Pflege mit fruchtig-blumigem Osmanthusduft, häufig mit aprikosenähnlichen Duftnoten. |\n| **Néroli & Orchidée** | |\n| **Néroli & Orchidée Hand Cream** | Zarte Handpflege mit elegantem, weißblumigem Duft aus Neroli und Orchidee. Eher eine Duftpflege als eine sehr reichhaltige Reparaturcreme. |\n| **Herbae** | |\n| **Herbae L’Eau Hand Cream** | Leichte, schnell einziehende Handcreme mit grünem, krautig-floralem Duftprofil. Die Verfügbarkeit kann je nach Sortiment schwanken. |\n| **Aqua Réotier** | |\n| **Aqua Réotier Fresh Moisturizing Hand Cream** | Frische Feuchtigkeitspflege mit leichtem Hautgefühl. Auf intensive Hydratation und ein nicht-fettendes Finish ausgerichtet; häufig mit feuchtigkeitsbindenden Inhaltsstoffen wie Hyaluronsäure formuliert. |\n| **Cade** | |\n| **Cade Hand Cream** | Reichhaltigere Handpflege mit markantem, holzig-aromatischem Duft der Cade-Kollektion. Besonders interessant für Liebhaber maskuliner Duftnoten. |\n| **Cédrat** | |\n| **Cédrat Hand Cream** | Leichte Handcreme mit frischem, zitrischem und leicht holzigem Duft. Typischerweise als Teil der Herren- bzw. Duftlinie geführt. |\n\n### Einordnung nach Pflegeintensität\n\n- **Am reichhaltigsten:** Shea Butter Hand Cream, Shea Butter Lavender/Rose  \n- **Für normale tägliche Pflege:** Almond Delicious Hands, Cherry Blossom, Rose, Osmanthus  \n- **Leicht und schnell einziehend:** Verbena Hand Cream, Aqua Réotier, Herbae  \n- **Erfrischend bzw. kühlend:** Verbena Cooling Hand Cream Gel  \n- **Vor allem duftorientiert:** Néroli & Orchidée, Cédrat, Cade und viele limitierte Editionen  \n\nDie kleinen 30-ml-Tuben sind meist als Handtaschen- oder Reisegröße gedacht; die 150-ml-Sheabutter-Creme ist die klassische größere Vorratsgröße. Nicht jede Duftvariante ist dauerhaft im deutschen Onlineshop verfügbar.\n\nSOURCES: L’Occitane Deutschland – Kategorie Handpflege und Handcremes (loccitane.com/de-de), offizielle Produktseiten der Linien Shea Butter, Amande, Verveine, Cherry Blossom, Rose, Lavender, Osmanthus, Néroli & Orchidée, Aqua Réotier und Cade, L’Occitane Inhaltsstoff- und Produktinformationen",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "absent": false,
+    "sources": [
+     "L’Occitane Deutschland – Kategorie Handpflege und Handcremes (loccitane.com/de-de)",
+     "Offizielle Produktseiten der Linien Shea Butter, Amande, Verveine, Cherry Blossom, Rose, Lavender, Osmanthus, Néroli & Orchidée, Aqua Réotier und Cade",
+     "L’Occitane Inhaltsstoff- und Produktinformationen"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane führt eine Karité-/Shea-Butter-Handcreme als klassisches Produkt in 30-ml- und 150-ml-Größen.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane führt eine Amande-/Mandel-Handcreme-Linie.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane führt eine Verveine-/Verbena-Handcreme-Linie.",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitane führt eine Osmanthus-Handcreme-Linie.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane führt eine Herbae-L’Eau-Handcreme-Linie.",
+      "status": "contradicted"
+     },
+     {
+      "claim": "L’Occitane führt eine Aqua-Réotier-Handcreme-Linie.",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 19.36,
+   "latency_judge": 12.83
+  },
+  {
+   "market": "DE",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P4_compare",
+   "rep": 1,
+   "question": "L'Occitane oder die Konkurrenz bei crème pour les mains – was soll ich wählen und warum? Nenne die Quellen (Websites, Tests, Bewertungen), auf die du dich stützt.",
+   "answer": "Kurz gesagt: **L’Occitane ist die bessere Wahl für Duft, Hautgefühl und als Geschenk – nicht unbedingt für maximale Pflegewirkung oder Preis-Leistung.** Für trockene, rissige oder empfindliche Hände gibt es meist zweckmäßigere Alternativen.\n\n## Meine Empfehlung nach Hauttyp\n\n| Wenn dir wichtig ist … | Gute Wahl | Warum |\n|---|---|---|\n| Luxusgefühl, angenehmer Duft, schnelle Alltagspflege | **L’Occitane Shea Butter Hand Cream** | Reichhaltige, aber meist gut einziehende Textur; 20 % Sheabutter bei der klassischen Variante |\n| Sehr trockene, raue Hände | **Eucerin UreaRepair PLUS 5 % Urea Handcreme** | Urea bindet Wasser und glättet raue Haut; stärker auf Pflege als auf Duft ausgerichtet |\n| Empfindliche Haut oder Handekzem-Neigung | **CeraVe Reparative Hand Cream** oder eine parfümfreie „med“-Creme | Ohne den typischen Parfümfokus; Ceramide und Feuchthaltemittel unterstützen die Hautbarriere |\n| Sehr gutes Preis-Leistungs-Verhältnis | **Neutrogena Norwegische Formel, unparfümiert** oder **Balea med Ultra Sensitive** | Einfachere, funktionale Formulierungen; oft deutlich günstiger |\n| Rissige, stark beanspruchte Hände | **Neutrogena unparfümiert** oder eine fettreichere Apotheker-Handcreme | Bildet einen Schutzfilm und reduziert Wasserverlust; am besten abends verwenden |\n\n## L’Occitane: Was spricht dafür?\n\nDie klassische **Shea Butter Hand Cream** ist sinnvoll, wenn du:\n\n- eine angenehm cremige, kosmetisch elegante Textur möchtest,\n- Duft und Anwendungserlebnis wichtig findest,\n- eine Handcreme für normale bis trockene Hände suchst,\n- ein hochwertigeres Geschenk möchtest.\n\nSheabutter wirkt rückfettend und unterstützt zusammen mit Feuchthaltemitteln die Pflege trockener Haut. L’Occitane verwendet bei der klassischen Variante nach eigener Produktbeschreibung **20 % Sheabutter**.\n\n### Die Nachteile\n\n- **Relativ teuer pro 100 ml** im Vergleich zu Drogerie- und Apothekenprodukten.\n- Die klassische Variante ist **parfümiert** und enthält Duftallergene. Das ist bei gesunder Haut kein automatisches Problem, kann bei empfindlicher Haut, Duftstoffallergie oder Handekzem aber ungünstig sein.\n- Ein hoher Sheabutter-Anteil bedeutet nicht automatisch, dass sie bei stark entzündeten oder rissigen Händen besser wirkt als eine parfümfreie Creme mit Urea, Glycerin, Ceramiden oder Okklusivstoffen.\n- Die Produktrezeptur kann je nach Land und Version variieren; vor dem Kauf ist die **aktuelle INCI-Liste auf der Verpackung** entscheidend.\n\n## Wann ich eher zur Konkurrenz greifen würde\n\n### 1. Bei empfindlicher Haut: CeraVe oder Balea med\n\nAchte auf **parfümfrei** und möglichst wenige reizende Zusätze. CeraVe setzt bei der Handcreme unter anderem auf Ceramide und Hyaluronsäure. Balea med bietet häufig sehr günstige, parfümfreie Produkte an.\n\n**Meine Wahl:**  \n- Bei moderat empfindlicher Haut: **CeraVe**  \n- Bei knappem Budget: **Balea med Ultra Sensitive**\n\n### 2. Bei trockener, schuppiger Haut: Eucerin UreaRepair\n\nUrea ist ein gut belegter Feuchthaltefaktor. **5 % Urea** ist für viele trockene Hände ein guter Alltagsbereich. Bei tiefen Rissen kann Urea allerdings brennen; dann zunächst eine mildere, parfümfreie Creme oder Salbe verwenden.\n\n**Meine Wahl:** Eucerin, wenn sich die Hände rau und gespannt anfühlen und du nicht primär Duft möchtest.\n\n### 3. Bei sehr rissigen Händen: Neutrogena oder eine Salbe\n\nDie unparfümierte Neutrogena-Handcreme ist oft sehr konzentriert und bildet einen stärkeren Schutzfilm. Sie eignet sich besonders abends, kann tagsüber aber etwas klebrig wirken.\n\n**Meine Wahl:** Neutrogena nachts, L’Occitane tagsüber, falls du zusätzlich ein angenehmeres Hautgefühl und Parfum möchtest.\n\n## Mein Fazit\n\n- **L’Occitane kaufen**, wenn du das sensorische Erlebnis, den Duft und die schöne Verpackung schätzt und deine Hände „normal bis trocken“ sind.\n- **Eucerin UreaRepair kaufen**, wenn du möglichst wirksame Pflege für trockene, raue Haut möchtest.\n- **CeraVe oder Balea med kaufen**, wenn du empfindliche oder zu Ekzemen neigende Haut hast.\n- **Neutrogena unparfümiert kaufen**, wenn deine Hände stark beansprucht oder rissig sind und dir Preis-Leistung wichtiger ist.\n\nPraktischer Tipp: Creme nach jedem Händewaschen auf die noch leicht feuchte Haut auftragen. Bei Rissen abends großzügig cremen und gegebenenfalls Baumwollhandschuhe verwenden. Bei nässenden, stark entzündeten oder dauerhaft schmerzenden Stellen reicht eine normale Handcreme möglicherweise nicht aus.\n\n## Quellen und Grundlage der Einschätzung\n\n- **L’Occitane:** Produktbeschreibung und INCI der Shea Butter Hand Cream; Angaben zu Sheabutter-Anteil und Duftstoffen  \n- **Eucerin:** Produktinformationen zur UreaRepair PLUS Handcreme; Angaben zu Urea und Anwendung bei trockener Haut  \n- **CeraVe:** Produktinformationen zur Reparative Hand Cream; Angaben zu Ceramiden, Hyaluronsäure und Parfümfreiheit  \n- **Neutrogena:** Produktinformationen zur Norwegischen Formel, insbesondere der unparfümierten Handcreme  \n- **Balea / dm:** Produktinformationen zu Balea-med-Handcremes und jeweilige INCI-Listen  \n- **American Academy of Dermatology (AAD):** Empfehlungen zur Pflege trockener Hände und bei Handekzemen  \n- **DermNet:** Informationen zu irritativer Kontaktdermatitis, Handekzem und Duftstoffallergien  \n- **ÖKO-TEST und Stiftung Warentest:** Verbraucher- und Produkttests zu Handcremes; Ergebnisse sollten immer anhand des konkreten Testjahrs und der getesteten Produktversion gelesen werden\n\nSOURCES: loccitane.com, eucerin.de, cerave.de, neutrogena.de, dm.de, aad.org, dermnetnz.org, oekotest.de, test.de",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "Eucerin",
+     "CeraVe",
+     "Neutrogena",
+     "Balea med"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "sources": [
+     "loccitane.com",
+     "eucerin.de",
+     "cerave.de",
+     "neutrogena.de",
+     "dm.de",
+     "aad.org",
+     "dermnetnz.org",
+     "oekotest.de",
+     "test.de"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitane offers a classic Shea Butter Hand Cream.",
+      "status": "consistent"
+     },
+     {
+      "claim": "The classic L’Occitane hand cream contains 20% shea butter.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "The classic L’Occitane hand cream has a rich, generally fast-absorbing texture.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "The classic L’Occitane hand cream is fragranced and contains fragrance allergens.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane is relatively expensive per 100 ml compared with drugstore and pharmacy products.",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitane is suitable for normal to dry hands and is recommended as a pleasant daytime option.",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": "Neutrogena"
+   },
+   "latency_answer": 19.41,
+   "latency_judge": 16.89
+  },
+  {
+   "market": "JP",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P1_reco",
+   "rep": 1,
+   "question": "crème pour les mainsを買いたいです。おすすめのブランドはどれですか？おすすめ順にトップ5のブランドを、各ブランド一文の説明付きでランキングしてください。",
+   "answer": "おすすめ順に、ハンドクリームの定番ブランドを5つご紹介します。\n\n1. **ロクシタン（L’OCCITANE）**：シアバター配合の保湿力と豊富な香りが魅力で、ギフトにも自分用にも選びやすいブランドです。  \n2. **アトリックス（atrix）**：手頃な価格ながら保湿力に優れ、日常使いしやすい日本の定番ブランドです。  \n3. **アベンヌ（Avène）**：敏感肌向けの低刺激設計で、乾燥や肌荒れが気になる方におすすめです。  \n4. **イソップ（Aesop）**：植物由来成分と上品な香り、洗練されたパッケージを重視する方に適しています。  \n5. **キールズ（Kiehl’s）**：しっとり感がありながら比較的べたつきにくく、都会的な使用感を求める方におすすめです。  \n\nSOURCES: 各ブランド公式サイト（L’OCCITANE、花王アトリックス、Avène、Aesop、Kiehl’s）",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "ロクシタン（L’OCCITANE）",
+     "アトリックス（atrix）",
+     "アベンヌ（Avène）",
+     "イソップ（Aesop）",
+     "キールズ（Kiehl’s）"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "sources": [
+     "各ブランド公式サイト（L’OCCITANE、花王アトリックス、Avène、Aesop、Kiehl’s）"
+    ],
+    "claims": [
+     {
+      "claim": "シアバター配合のハンドクリームを扱っている",
+      "status": "consistent"
+     },
+     {
+      "claim": "保湿力が魅力である",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "豊富な香りがある",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "ギフトにも自分用にも選びやすい",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 4.79,
+   "latency_judge": 9.47
+  },
+  {
+   "market": "JP",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P2_opinion",
+   "rep": 1,
+   "question": "crème pour les mainsにおけるL'Occitaneというブランドをどう思いますか？強み、弱み、そしてどんな人におすすめか教えてください。",
+   "answer": "L’Occitane（ロクシタン）のハンドクリームは、**香りと使用感、ギフト性の高さが強み**のブランドだと思います。特に定番の「シア ハンドクリーム」は知名度が高く、乾燥対策用として使いやすい一方、価格や香りの強さは好みが分かれます。\n\n## 強み\n\n### 1. 香りの種類が豊富\nシア、ヴァーベナ、チェリーブロッサム、ローズ、アーモンドなど、香りの選択肢が多いです。  \n「保湿だけでなく、香水のように香りも楽しみたい」という人に向いています。\n\n### 2. 乾燥対策に使いやすい\n特にシアシリーズは、しっとり感が比較的しっかりしています。手洗いやアルコール消毒で乾燥しやすい人にも使いやすいタイプです。\n\n### 3. べたつきにくい製品も多い\n濃厚なタイプだけでなく、ヴァーベナ系など軽めの使用感の商品もあります。仕事中や外出先で使いやすいものを選べる点は便利です。\n\n### 4. パッケージとブランドイメージがよい\n見た目に上品さがあり、ミニサイズやセット商品も多いため、誕生日・送別・クリスマスなどのちょっとした贈り物に適しています。\n\n### 5. サイズ展開がある\n30mL前後の携帯用から大きめサイズまであり、まず試してから気に入ったものをリピートしやすいです。\n\n## 弱み\n\n### 1. 価格はやや高め\nドラッグストアのハンドクリームと比べると高価です。保湿だけが目的なら、より安価で高性能な選択肢もあります。\n\n### 2. 香りが苦手な人には不向き\n香りが比較的はっきりした商品が多く、無香料を好む人や、職場・飲食店などで香りを控えたい人には使いにくい場合があります。\n\n### 3. ひどい手荒れには物足りないことがある\nあかぎれ、湿疹、強いひび割れなどがある場合、一般的な化粧品としてのハンドクリームだけでは十分でないことがあります。そうした場合は、香りよりもワセリンや尿素など、症状に合ったケアを優先したほうがよいでしょう。\n\n### 4. 商品によって使用感の差が大きい\n同じブランドでも、シアは濃厚、ヴァーベナは比較的さっぱり、香り重視の限定品は保湿感が軽めなど、使用感が異なります。「ロクシタンなら全部同じ」と考えず、商品ごとに選ぶ必要があります。\n\n## どんな人におすすめか\n\n- 香りのあるハンドクリームが好きな人  \n- 手肌の保湿とリラックス感の両方を求める人  \n- バッグに入れやすい上品なハンドクリームを探している人  \n- 友人や職場の人へのギフトを探している人  \n- 季節や気分に合わせて香りを使い分けたい人  \n- 多少高くても、ブランドやパッケージも重視する人  \n\n逆に、**無香料・低価格・医薬品に近い強力な手荒れ対策**を求める人には、ロクシタン以外の製品のほうが満足しやすいでしょう。\n\n個人的には、初めてなら**「シア ハンドクリーム」**が最も無難です。しっとり感を重視するならシア、軽い使用感と爽やかな香りならヴァーベナ、華やかな香りならチェリーブロッサム系、という選び方がおすすめです。\n\nSOURCES: L’OCCITANE公式オンラインショップ・各製品の商品情報、一般的なハンドケア成分・皮膚科領域の保湿ケア情報】【。",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "ロクシタン"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "absent": false,
+    "sources": [
+     "L’OCCITANE公式オンラインショップ・各製品の商品情報",
+     "一般的なハンドケア成分・皮膚科領域の保湿ケア情報"
+    ],
+    "claims": [
+     {
+      "claim": "「シア ハンドクリーム」はロクシタンの定番・代表的な商品である",
+      "status": "consistent"
+     },
+     {
+      "claim": "ハンドクリームのラインとしてシア、ヴァーベナ、チェリーブロッサム、ローズ、アーモンドなどを展開している",
+      "status": "consistent"
+     },
+     {
+      "claim": "ハンドクリームには30mL前後の携帯用サイズから大きめサイズまである",
+      "status": "consistent"
+     },
+     {
+      "claim": "シアシリーズは比較的しっとり感が強く、ヴァーベナ系は比較的軽い使用感である",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "ミニサイズやセット商品が多く、ギフトに適している",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 14.26,
+   "latency_judge": 12.16
+  },
+  {
+   "market": "JP",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P3_products",
+   "rep": 1,
+   "question": "L'Occitaneのcrème pour les mainsのラインナップと製品にはどんなものがありますか？主な特徴とともに列挙してください。",
+   "answer": "ロクシタンの「Crème pour les mains（ハンドクリーム）」は、保湿力の高いシアシリーズを中心に、香りごとのシリーズや季節限定品が展開されています。日本で主に見られるラインナップは次のとおりです。  \n※販売状況・名称・容量は時期や店舗によって変わります。\n\n## 定番・保湿重視のシリーズ\n\n| 製品 | 主な特徴 |\n|---|---|\n| **シア ハンドクリーム** | シアバターを20％配合した代表的な製品。乾燥や手荒れが気になる手をしっとり保湿。濃厚ながら伸びがよく、ロクシタンの定番。 |\n| **シア ハンドクリーム ライト** | シアバターを配合しつつ、通常のシア ハンドクリームより軽やかな使用感。ベタつきが苦手な人向け。 |\n| **シア ハンドクリーム ローズ** | シアバターの保湿力に、ローズの華やかで上品な香りをプラスしたタイプ。 |\n| **シア ハンドクリーム ラベンダー** | シアバターのしっとり感と、穏やかで清潔感のあるラベンダーの香りが特徴。 |\n| **シア ハンドクリーム ヴァーベナ** | 保湿力のあるシアバターと、爽やかなヴァーベナの香りを組み合わせた製品。 |\n| **シア ハンドクリーム オスマンサス** | キンモクセイを思わせる、甘くフルーティーでやわらかな香り。秋冬の限定品として登場することもあります。 |\n\n## 香りを楽しむハンドクリーム\n\n| 製品 | 主な特徴 |\n|---|---|\n| **ヴァーベナ ハンドクリーム** | レモンのようなシトラス感と、清涼感のあるハーブ調の香り。さっぱりした使用感で、季節を問わず使いやすいタイプ。 |\n| **ヴァーベナ アイスハンドクリーム** | ヴァーベナの爽やかな香りに、ひんやりした感触を加えた製品。暑い季節やリフレッシュしたいときに向いています。 |\n| **ローズ ハンドクリーム** | ローズの優雅でフェミニンな香り。比較的軽やかなテクスチャーで、香水代わりにも使いやすい製品。 |\n| **チェリーブロッサム ソフトハンドクリーム** | 桜をイメージした、軽く可憐でややフルーティーな香り。ベタつきにくく、春らしい印象。 |\n| **ラベンダー ハンドクリーム** | ラベンダーの落ち着いたアロマティックな香り。手肌をなめらかに整えながら、リラックス感のある香りを楽しめます。 |\n| **ネロリオーキデ ハンドクリーム** | ネロリとオーキッドを基調にした、清楚で柔らかなフローラルの香り。上品で控えめな香調。 |\n| **エルバヴェール ハンドクリーム** | 草原やグリーンを思わせる、爽やかで透明感のある香り。甘すぎない香りを好む人向け。 |\n| **オスマンサス ハンドクリーム** | オスマンサス（金木犀）の甘く華やかな香り。アプリコットのようなフルーティーさも感じられます。 |\n\n## うるおい・なめらかさを重視したシリーズ\n\n| 製品 | 主な特徴 |\n|---|---|\n| **アーモンド ハンドクリーム／アーモンド デリシャスハンドクリーム** | アーモンド由来のオイルなどを配合し、乾燥した手肌をなめらかに整えるタイプ。ミルキーで甘く香ばしい香りが特徴。 |\n| **イモーテル ディヴァイン ハンドクリーム** | イモーテルを中心とした高級スキンケアラインのハンドクリーム。乾燥対策に加えて、ハリ・なめらかさを意識した設計。 |\n| **アクアレオティエ ハイドレーション ハンドクリーム** | 水分補給を意識した軽やかな保湿ケア。みずみずしい使用感で、日中にも使いやすいタイプ。 |\n\n## 選び方の目安\n\n- **ひどい乾燥・手荒れ対策**：シア ハンドクリーム  \n- **軽い使用感・ベタつきにくさ重視**：シア ハンドクリーム ライト、チェリーブロッサム  \n- **爽やかな香り**：ヴァーベナ、エルバヴェール  \n- **華やかな香り**：ローズ、ネロリオーキデ  \n- **甘くフルーティーな香り**：オスマンサス、アーモンド  \n- **落ち着いた香り**：ラベンダー  \n- **ひんやり感が欲しい**：ヴァーベナ アイスハンドクリーム  \n\nロクシタンでは、通常ラインのほかに、季節限定の香り、ミニサイズ、ハンドクリームセット、ホリデー限定デザインも頻繁に発売されます。そのため、現在購入できる全商品を確認する場合は、公式サイトの「ハンドケア／ハンドクリーム」カテゴリを見るのが確実です。\n\nSOURCES: ロクシタン公式日本サイト、ロクシタン公式オンラインショップ、各製品の公式商品ページ",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "ロクシタン"
+    ],
+    "brand_rank": null,
+    "sentiment": "positive",
+    "absent": false,
+    "sources": [
+     "ロクシタン公式日本サイト",
+     "ロクシタン公式オンラインショップ",
+     "各製品の公式商品ページ"
+    ],
+    "claims": [
+     {
+      "claim": "シア ハンドクリームをロクシタンの代表的な製品として挙げている",
+      "status": "consistent"
+     },
+     {
+      "claim": "ロクシタンのハンドクリームのラインとして、ローズ、ラベンダー、ヴァーベナ、チェリーブロッサム、ネロリオーキデ、アーモンドを挙げている",
+      "status": "consistent"
+     },
+     {
+      "claim": "シア ハンドクリームにはシアバターが20％配合されていると述べている",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "オスマンサス、エルバヴェールをロクシタンのハンドクリームのラインとして挙げている",
+      "status": "contradicted"
+     },
+     {
+      "claim": "イモーテル ディヴァイン、アクアレオティエをロクシタンのハンドクリームのラインとして挙げている",
+      "status": "contradicted"
+     }
+    ],
+    "top_competitor": null
+   },
+   "latency_answer": 24.25,
+   "latency_judge": 9.1
+  },
+  {
+   "market": "JP",
+   "assistant": "OpenAI",
+   "model": "gpt-5.6-luna",
+   "probe": "P4_compare",
+   "rep": 1,
+   "question": "crème pour les mainsでL'Occitaneと競合ブランドのどちらを選ぶべきですか？理由と、参考にした情報源（サイト、レビュー、比較記事）を教えてください。",
+   "answer": "結論としては、**「香り・高級感・ギフト性」を重視するならL’Occitane、「保湿力・価格・無香料」を重視するなら競合ブランド**がおすすめです。万人向けに1本選ぶなら、目的別に次のように考えると選びやすいです。\n\n## 比較\n\n| ブランド・代表商品 | 向いている人 | 長所 | 注意点 |\n|---|---|---|---|\n| **L’Occitane シア ハンドクリーム** | 香り、ブランド感、ギフトを重視する人 | シアバター20％配合。コクのある使用感で、乾燥した手に向く。パッケージや香りの満足感も高い | 比較的高価。香りが苦手な人や、塗った直後のさらさら感を重視する人には重く感じることがある |\n| **Neutrogena ノルウェーフォーミュラ ハンドクリーム** | 価格と保湿力を重視する人 | 無香料タイプがあり、乾燥・ひび割れ対策を優先しやすい。少量でも伸ばしやすい | しっとり感・油膜感が強く、日中の作業前にはややべたつく場合がある |\n| **Kiehl’s アルティメイト ストレングス ハンドサルブ** | 手荒れしやすく、しっかり保護したい人 | 濃厚なバーム系で、乾燥した手を包むような使用感 | 高価で、軽い使用感を求める人には重い可能性がある |\n| **Aesop レスレクション アロマティック ハンドバーム** | 香りと使用感、デザインを重視する人 | ハーブ・シトラス系の香り、比較的洗練された使用感。ギフトにも向く | 香り付きで価格も高め。深刻な乾燥対策だけを考えると、より低価格・高保湿の商品がある |\n| **Atrix／NIVEAなどのドラッグストア製品** | 毎日たっぷり使いたい人 | 容量あたりの価格が安く、入手しやすい。商品によって無香料・さらさら系も選べる | 高級感や香り、ギフト性はL’Occitaneに劣ることがある |\n\n## L’Occitaneを選ぶべき理由\n\n### 1. 保湿力と使用感のバランスがよい\nL’Occitaneの定番「シア ハンドクリーム」は、シアバターを高濃度に配合した濃厚なタイプです。乾燥しやすい冬や、水仕事の後のケアに向いています。\n\nただし、保湿力が高いぶん、**「塗った直後にスマートフォンやキーボードを触りたい」という人には重く感じる可能性**があります。\n\n### 2. 香りとブランド体験が強い\nL’Occitaneは、単なる保湿剤というより、香り・パッケージ・店舗体験を含めて楽しむブランドです。自分用だけでなく、誕生日やお礼のギフトにも選びやすい点が競合との差です。\n\n### 3. サイズを選びやすい\n小容量サイズは持ち運びやすく、初めて試す場合にも適しています。大容量タイプは自宅用に向いています。\n\n## 競合ブランドを選ぶべきケース\n\n### 無香料・敏感肌寄りならNeutrogena\n香りを避けたい場合や、保湿性能を優先する場合は、**Neutrogenaの無香料タイプ**が合理的です。L’Occitaneよりも「実用品」として選びやすく、価格面でも有利なことが多いです。\n\n### ひどい乾燥・手荒れにはKiehl’sまたはNeutrogena\n手の乾燥が強い場合は、香りやブランドよりも、濃厚なバーム・クリーム系を優先したほうがよいでしょう。L’Occitaneも十分濃厚ですが、**保護膜感を重視するならKiehl’s、価格を抑えるならNeutrogena**という選び方ができます。\n\n### 香りと軽快さならAesop\nL’Occitaneよりも、ハーブやシトラス系の香り、洗練されたデザインを好むならAesopが候補です。ただし、Aesopも価格帯は高めなので、純粋なコストパフォーマンスではドラッグストア製品に劣ります。\n\n### コストパフォーマンスならAtrixやNIVEA\n職場・洗面所・ベッドサイドなど複数箇所に置いて頻繁に使うなら、L’Occitaneを1本買うより、AtrixやNIVEAを複数本使うほうが実用的です。\n\n## 目的別のおすすめ\n\n- **ギフト、自分へのご褒美**：L’Occitane  \n- **冬の乾燥対策**：L’Occitane シア、Neutrogena、Kiehl’s  \n- **無香料がよい**：Neutrogena、無香料のドラッグストア製品  \n- **ベタつきにくさ重視**：Aesopの軽めのハンドバーム、さらさら系のAtrix・NIVEA  \n- **香り重視**：L’OccitaneまたはAesop  \n- **価格重視**：Atrix、NIVEA、Neutrogena  \n- **水仕事が多い**：濃厚なL’Occitane シア、Neutrogena、Kiehl’s  \n\n## 私ならどう選ぶか\n\n- **1本だけをギフトとして買う**なら、L’Occitaneのシア ハンドクリーム  \n- **自分が毎日使う**なら、無香料のNeutrogenaまたはドラッグストア製品  \n- **香りも楽しみたいが、L’Occitaneより個性的な香りがよい**ならAesop  \n- **手荒れ・乾燥がかなり強い**なら、L’Occitaneより先にNeutrogenaやKiehl’sの濃厚タイプを比較  \n\nなお、香料・精油・植物由来成分で刺激を感じる場合があるため、敏感肌の場合は無香料タイプを優先し、購入前に商品表示を確認するのが安全です。価格や配合、容量は日本国内でも時期・店舗によって変わるため、最終的には公式商品ページで確認してください。\n\n参考にしやすい情報源は以下です。\n\n- **L’Occitane Japan公式**：シア ハンドクリームの商品説明、配合成分、容量・価格  \n- **Neutrogena公式／Johnson & Johnson公式**：ノルウェーフォーミュラの成分・使用方法  \n- **Kiehl’s Japan公式**：アルティメイト ストレングス ハンドサルブの商品情報  \n- **Aesop Japan公式**：レスレクション アロマティック ハンドバームの商品説明・成分  \n- **@cosme**：各商品の購入者レビュー、香り・べたつき・保湿力に関する口コミ  \n- **LIPS**：実際の使用感や香り、塗った後のべたつきについてのレビュー  \n- **mybest**：「ハンドクリームおすすめ」などの比較記事。保湿力、使用感、価格、香りを横断比較する際に参考になります  \n- **日本皮膚科学会・日本臨床皮膚科医会などのスキンケア情報**：乾燥肌・手荒れ時の保湿剤選びの一般的な考え方  \n\nSOURCES: L’Occitane Japan公式、Neutrogena／Johnson & Johnson公式、Kiehl’s Japan公式、Aesop Japan公式、@cosme、LIPS、mybest、日本皮膚科学会・日本臨床皮膚科医会のスキンケア情報",
+   "verdict": {
+    "brand_mentioned": true,
+    "brands_listed": [
+     "L’Occitane",
+     "Neutrogena",
+     "Kiehl’s",
+     "Aesop",
+     "Atrix",
+     "NIVEA"
+    ],
+    "brand_rank": 1,
+    "sentiment": "positive",
+    "sources": [
+     "L’Occitane Japan公式",
+     "Neutrogena／Johnson & Johnson公式",
+     "Kiehl’s Japan公式",
+     "Aesop Japan公式",
+     "@cosme",
+     "LIPS",
+     "mybest",
+     "日本皮膚科学会・日本臨床皮膚科医会のスキンケア情報"
+    ],
+    "claims": [
+     {
+      "claim": "L’Occitaneの代表商品としてシア ハンドクリームがある",
+      "status": "consistent"
+     },
+     {
+      "claim": "シア ハンドクリームはシアバターを20％配合している",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "シア ハンドクリームはコクのある濃厚な使用感で、乾燥した手や冬、水仕事の後に向いている",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitaneは香り、パッケージ、店舗体験を楽しめるブランドで、ギフトにも選びやすい",
+      "status": "unverifiable"
+     },
+     {
+      "claim": "L’Occitaneのハンドクリームには持ち運び向きの小容量サイズと自宅向きの大容量サイズがある",
+      "status": "consistent"
+     },
+     {
+      "claim": "L’Occitaneのハンドクリームは比較的高価である",
+      "status": "unverifiable"
+     }
+    ],
+    "top_competitor": "Neutrogena"
+   },
+   "latency_answer": 24.96,
+   "latency_judge": 17.09
+  }
+ ]
+}
