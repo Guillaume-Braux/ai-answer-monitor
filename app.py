@@ -154,7 +154,7 @@ def _build_assistants() -> dict[str, Assistant]:
     if os.getenv("OPENAI_REAL_API_KEY"):
         out["OpenAI"] = Assistant("OpenAI", "openai-compatible", os.getenv("OPENAI_MODEL", "gpt-5.6-luna"),
                                   os.getenv("OPENAI_REAL_API_KEY"), None,
-                                  float(os.getenv("OPENAI_PRICE_IN", "0.10")), float(os.getenv("OPENAI_PRICE_OUT", "0.60")))
+                                  float(os.getenv("OPENAI_PRICE_IN", "0.20")), float(os.getenv("OPENAI_PRICE_OUT", "1.20")))
     if os.getenv("ANTHROPIC_API_KEY") and os.getenv("ANTHROPIC_MODEL"):
         out["Anthropic"] = Assistant("Anthropic", "anthropic", os.getenv("ANTHROPIC_MODEL"), os.getenv("ANTHROPIC_API_KEY"), None,
                                      float(os.getenv("ANTHROPIC_PRICE_IN", "0")), float(os.getenv("ANTHROPIC_PRICE_OUT", "0")))
@@ -275,7 +275,7 @@ def timed_call(a: Assistant, *args, **k) -> tuple[str, int, int, float]:
 
 
 def parse_json(text: str) -> dict:
-    """Balaye chaque « { » et garde le premier objet qui décode vraiment. Un regex glouton du
+    """Balaye chaque « { » et garde le verdict le plus complet qui décode vraiment. Un regex glouton du
     premier « { » au dernier « } » cassait dès que le juge préfaçait sa réponse d'un exemple :
     le verdict tombait en repli neutre et une erreur factuelle réelle disparaissait en silence."""
     attendus = ("brand_mentioned", "brands_listed", "brand_rank", "sentiment", "sources", "claims", "top_competitor")
@@ -1262,7 +1262,7 @@ with gr.Blocks(title=f"{TITLE} ({CASE})", fill_width=True) as demo:
                                                   info="Découverts au démarrage : une clé d’API présente = un assistant de plus.")
                 with gr.Column(min_width=240):
                     reps = gr.Slider(1, 7, value=1, step=1, label="Répétitions par sonde",
-                                     info="1 = démonstration rapide. ≥ 7 pour un suivi mensuel : deux exécutions simultanées du même prompt ne partagent que 46–48 % des marques citées et 32–43 % des sources (Schulte et al., Univ. de Saint-Gall, avr. 2026, arXiv 2604.07585).")
+                                     info="1 = démonstration rapide. ≥ 7 pour un suivi mensuel : deux exécutions simultanées du même prompt ne partagent que 33–48 % des marques citées selon la verticale et 32–43 % des sources (Schulte et al., Univ. de Saint-Gall, avr. 2026, arXiv 2604.07585).")
                     est = gr.HTML(estimate_html(DEF_MARKETS, DEF_ASSISTANTS, 1), padding=False, container=False)
             btn = gr.Button("Lancer le sondage", variant="primary", size="lg")
             gr.HTML(f'<p class="aam-bank">Banc de sondes <code>v{PROBE_BANK_VERSION}</code> : 4 questions par marché '

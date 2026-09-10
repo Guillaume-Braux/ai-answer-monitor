@@ -1,14 +1,3 @@
----
-title: Lundi (AI Answer Monitor)
-emoji: 🔎
-colorFrom: gray
-colorTo: blue
-sdk: gradio
-sdk_version: 6.26.0
-app_file: app.py
-pinned: false
----
-
 # Lundi
 
 **What AI assistants say about a brand, market by market — and what to change on Monday morning.**
@@ -37,7 +26,7 @@ A session band shows n calls, median / p95 latency, tokens and cost, so the pric
 
 ## The three choices you asked for
 
-**What we probe, and how it stays repeatable.** A frozen, versioned probe bank (`PROBE_BANK_VERSION`), 4 questions × market, written natively rather than machine-translated — the wording of a question moves the answer more than the model version does, so the wording is the thing we freeze. Each probe can be repeated 1–7 times in a run: the answers are stochastic — measured across four AI search engines, two simultaneous runs of the same prompt share only 46–48 % of the brands they name and 32–43 % of the sources, and the authors recommend at least 7 runs per prompt per day plus a 2–4-week rolling window ([Schulte, Bleeker & Kaufmann, Univ. of St. Gallen, April 2026](https://arxiv.org/abs/2604.07585)) — so the *stability* column tells the reader when a change is noise. Same bank, same brand, next month → comparable numbers and a delta.
+**What we probe, and how it stays repeatable.** A frozen, versioned probe bank (`PROBE_BANK_VERSION`), 4 questions × market, written natively rather than machine-translated — the wording of a question moves the answer more than the model version does, so the wording is the thing we freeze. Each probe can be repeated 1–7 times in a run: the answers are stochastic — measured across four AI search engines, two simultaneous runs of the same prompt share only 33–48 % of the brands they name — 0.46–0.48 in consumer electronics and telecoms, but 0.33 in sporting goods — and 32–43 % of the sources, and the authors recommend at least 7 runs per prompt per day (8 when source coverage matters) plus a 2–4-week rolling window ([Schulte, Bleeker & Kaufmann, Univ. of St. Gallen, April 2026](https://arxiv.org/abs/2604.07585); their data was collected by scraping the engines' web interfaces, not their APIs — the very gap the first known limit below describes) — so the *stability* column tells the reader when a change is noise. Same bank, same brand, next month → comparable numbers and a delta.
 
 **What we measure.** Presence (named at all), rank in the spontaneous recommendation, sentiment (−1..1), declared sources, and **plain factual errors** — the one metric the market tools do not offer, and the one in the brief's Japanese example. It only works with ground truth, so the brand supplies a short fact sheet; anything the sheet does not cover is reported as *unverifiable*, not guessed. **The default fact sheet in the UI is an illustrative example written from public knowledge, not validated by L'Occitane** — the mechanism is the point; a real campaign starts with the brand's own product list per market.
 
@@ -55,7 +44,9 @@ inputs ─► probe bank (frozen, native) ─► answer call per assistant (Mist
 - `ASSISTANTS` is built from the keys present in `.env`: one `Assistant` per provider (OpenAI-compatible endpoint, Anthropic, or `mock` for tests without a key). Adding a third assistant is one entry.
 - Concurrency 4 workers, retries with back-off. Measured on 9 Sept 2026 from the providers' own
   rate-limit headers: the free Mistral tier allows 188 req/min and 625k tokens/min, so a default run
-  uses under 4 % of it — 4 workers is safe, and a run takes ~3.5 min (36 s per probe: 16 s answer + 20 s judge).
+  uses under 4 % of it — 4 workers is safe. The estimator uses a deliberately conservative 36 s per probe
+  (one measured call: 16 s answer + 20 s judge) and so announces ~4 min for a default run; the medians of the
+  reference run are lower, 14.2 s and 12.5 s.
   A 90 s HTTP timeout is set and the SDKs' own silent retries are disabled (`max_retries=0`), so the call and
   cost counters on screen match what was actually billed.
 - **Failures are shown, never absorbed.** A probe that fails does not kill the run — the others are scored and a
@@ -71,7 +62,7 @@ git clone <repo> && cd ai-answer-monitor
 cp .env.example .env            # add MISTRAL_API_KEY and/or OPENAI_REAL_API_KEY
 pip install -r requirements.txt
 python app.py                   # http://127.0.0.1:7860
-python test_app.py              # 234-assertion test battery — offline, no API key needed
+python test_app.py              # 251-assertion test battery — offline, no API key needed
 python eval_judge.py            # judge smoke test on 6 hand-labelled answers
 ```
 
@@ -82,9 +73,10 @@ campaign: Mistral `ministral-8b-latest` $0.15/$0.15 per M tokens (mistral.ai/pri
 OpenAI `gpt-5.6-luna` $0.20/$1.20 per M tokens, standard short-context tier
 (developers.openai.com/api/docs/pricing, read 9 Sept 2026). Two things move the real bill: the same model is
 billed $0.40/$1.80 above the short-context threshold — a probe never gets close, a much larger fact sheet would —
-and it is a reasoning model, so roughly half of its billed output tokens are reasoning tokens you never see.
-The figure is the higher of the two readings I obtained today; a cost shown to a client should err upwards, and
-the provider's usage console settles it in one glance.
+and the API billed 900 reasoning tokens out of 1,841 output tokens on one measured call — roughly half of what
+you pay for on output is never displayed.
+Both figures come from the provider's own pricing page; the factor-2 gap between quotes found elsewhere is the
+short- versus long-context tier, plus a half-price batch tier.
 
 ## Running this in public without handing over your API bill
 
@@ -104,7 +96,7 @@ The app is a public URL backed by a paid key, so abuse is a design constraint, n
 - Markets and assistants are validated against the server-side registries, never trusted from the request.
 
 These caps reset when the instance restarts. The backstop that does not is a **hard spend limit on the
-provider side**: set a monthly budget on the OpenAI project and use a restricted key dedicated to this Space.
+provider side**: set a monthly budget on the OpenAI project and use a restricted key dedicated to this instance.
 
 ## Known limits — read before trusting a number
 
@@ -115,7 +107,7 @@ provider side**: set a monthly budget on the OpenAI project and use a restricted
 - **Small n.** A default run is 3 markets × 4 probes × 2 assistants × 1 repetition = 24 answers. Differences under ~20 points between two markets or two months are noise; the UI says so. A monthly run should use 7 repetitions (see above).
 - **The fact sheet has to be a genuinely closed list, and that is easy only for narrow catalogues.** Tested on a second brand (Longchamp, handbags, 24 answers): a hand-written list of bag collections missed real seasonal lines — Le Pliage Cuir / Green / Filet, Box-Trot, Cavalcade, Roseau Essential — so the tool reported real products as invented. Rewriting the sheet halved the false errors (FR 13 → 6) but did not remove them. The factual-error metric is trustworthy where a brand can state a short, stable range (L'Occitane's seven hand-cream lines); a wide seasonal catalogue needs the brand's own product feed, not a typed paragraph. The tool never guesses either way: anything the sheet does not cover is reported as *unverifiable*, and the run-to-run delta makes a sheet correction visible immediately.
 - **Category wording** is inserted as typed; write it in the target language (or in English, and accept a small bias) — the probe bank is native, the category is not translated.
-- **History is a file** (`runs/`). On the hosted Space it resets when the Space restarts; for monthly use, point `HISTORY_PATH` at persistent storage.
+- **History is a file** (`runs/`). On the hosted instance it resets on restart (the free Render plan has no persistent disk); for monthly use, point `HISTORY_PATH` at a mounted disk.
 
 ## Options considered and set aside
 
@@ -126,7 +118,7 @@ provider side**: set a monthly budget on the OpenAI project and use a restricted
 
 ## Example run
 
-`examples/run_2026-09-09_loccitane.json` is the full export of the run behind the numbers quoted in the cover email: 3 markets × 4 probes × 2 assistants × 1 repetition = 24 answers, judged by `gpt-5.6-luna`, 96 API calls, $0.13. It contains every raw answer and every verdict, so each figure can be traced.
+`examples/run_2026-09-09_loccitane.json` is the full export of the run behind the numbers quoted in the cover email: 3 markets × 4 probes × 2 assistants × 1 repetition = 24 answers, judged by `gpt-5.6-luna`, 48 API calls, ≈$0.06. (The $0.13 quoted in the cover email was the session total for two consecutive runs — the on-screen band now separates the two.) It contains every raw answer and every verdict, so each figure can be traced.
 
 ## With two more days
 
